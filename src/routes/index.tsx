@@ -182,7 +182,7 @@ function Index() {
         />
         <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
         <div className="relative z-10 max-w-[900px]">
-          <div className="mb-10 flex flex-wrap items-center gap-x-3 gap-y-2">
+          <div className="mb-6 flex flex-wrap items-center gap-x-3 gap-y-2">
             <span className="h-px w-9 bg-gradient-to-r from-transparent to-gold" />
             <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] bg-gradient-to-r from-gold2 via-gold to-gold2 bg-clip-text text-transparent">
               Behavioural Data
