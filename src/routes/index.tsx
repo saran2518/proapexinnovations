@@ -200,7 +200,7 @@ function Index() {
           <h1 className="mb-6 font-serif text-[clamp(1.8rem,3.4vw,3rem)] font-normal leading-[1.12] text-white">
             AI-first consumer applications built on
             <br />
-            <em className="not-italic font-serif italic text-gold">one obsession — creating real solutions.</em>
+            <em className="not-italic font-serif italic text-gold">one obsession — “creating real solutions”</em>
           </h1>
           <div className="mb-14 grid max-w-3xl grid-cols-1 gap-x-12 gap-y-5 md:grid-cols-[1fr_auto_1fr] md:items-center">
             {(() => {
