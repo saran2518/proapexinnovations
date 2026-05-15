@@ -178,7 +178,7 @@ function Index() {
           <h1 className="mb-10 font-serif text-[clamp(3rem,6.5vw,6rem)] font-normal leading-[1.1] text-white">
             Building the Next Generation
             <br />
-            of <em className="not-italic font-serif italic text-gold">Consumer Apps.</em>
+            of <em className="not-italic font-serif italic text-gold">Consumer Applications</em>
           </h1>
           <p className="mb-14 max-w-[540px] text-[1.05rem] font-light leading-[1.85] text-white/55">
             We analyse consumer behaviour, identify what frustrates users, and
