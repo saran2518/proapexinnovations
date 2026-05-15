@@ -4,16 +4,16 @@ import { useEffect } from "react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "ProApex Innovations — Building the Next Generation of Consumer Apps" },
+      { title: "ProApex Innovations — AI-First Consumer Applications" },
       {
         name: "description",
         content:
-          "ProApex Innovations transforms consumer apps through behavioural research, precision UX, and AI-powered features. India to global.",
+          "ProApex Innovations builds AI-native consumer applications grounded in behavioural data, precision UX, and problem-layer AI. India · UK · Europe.",
       },
       { property: "og:title", content: "ProApex Innovations" },
       {
         property: "og:description",
-        content: "Consumer Experience · AI Innovation · UX Transformation",
+        content: "Behavioural Data · Precision UX · AI-Native Products",
       },
     ],
     links: [
@@ -29,58 +29,58 @@ export const Route = createFileRoute("/")({
 const PILLARS = [
   {
     n: "01",
-    t: "Deep behavioural research",
-    d: "We start with users — not assumptions. Mapping real journeys, real drop-offs, real frustrations before a single pixel changes.",
+    t: "Behavioural Data Foundation",
+    d: "Every product decision is derived from quantified user behaviour data — journey telemetry, drop-off signals, interaction heatmaps — before a single component is designed.",
   },
   {
     n: "02",
-    t: "Precision UX & CX redesign",
-    d: "Every interaction reconsidered. We rebuild flows from the ground up so the experience feels effortless at every step.",
+    t: "Precision UX Architecture",
+    d: "UX is the core infrastructure, not a surface layer. Interaction flows, information hierarchy, and response patterns are engineered to align exactly with how users process and navigate.",
   },
   {
     n: "03",
-    t: "AI woven in where it matters",
-    d: "Not AI for its own sake — AI that makes the product visibly smarter. Personalisation, prediction, and intelligence users actually feel.",
+    t: "Problem-Layer AI Integration",
+    d: "AI is embedded at the point where it solves a defined user problem — adaptive personalisation, predictive intent mapping, contextual inference — not deployed as a feature for its own visibility.",
   },
   {
     n: "04",
-    t: "Built with a global mindset",
-    d: "Starting with India and expanding across international markets — our methodology is built to scale.",
+    t: "Global-Scale Architecture",
+    d: "Products are architected from inception for multi-market deployment — scalable infrastructure, internationalisation-ready codebases, and compliance frameworks built for India, UK, and Europe.",
   },
 ];
 
 const SERVICES = [
   {
     n: "01",
-    t: "Consumer Behaviour Analysis",
-    d: "End-to-end journey mapping to uncover where users drop off, hesitate, and abandon — with granular precision.",
+    t: "Consumer Behavioural Research",
+    d: "Quantitative and qualitative analysis of real user behaviour — journey mapping, drop-off attribution, hesitation point identification, and intent signal extraction — conducted before any design or development begins.",
   },
   {
     n: "02",
-    t: "UX & CX Transformation",
-    d: "Redesigning flows, interactions, and the full customer experience so that using the app feels natural and effortless.",
+    t: "Precision UX Engineering",
+    d: "Interaction architecture and interface engineering built from validated user intent data. Every flow, transition, and decision point is designed to reduce cognitive load and eliminate friction at the interaction layer.",
   },
   {
     n: "03",
-    t: "AI Feature Integration",
-    d: "Embedding intelligent, context-aware features — smart search, personalisation engines, predictive flows — that users notice and value.",
+    t: "AI Feature Engineering",
+    d: "AI capabilities — adaptive personalisation engines, predictive navigation, contextual inference, and intelligent search — are scoped and integrated at the problem layer, with defined success metrics per feature.",
   },
   {
     n: "04",
-    t: "Continuous Optimisation",
-    d: "Ongoing measurement, iteration, and improvement — so the product remains sharp long after the initial transformation.",
+    t: "Product Deployment & Iteration",
+    d: "Full-cycle deployment across target markets, followed by continuous iteration driven by live usage data, cohort analysis, and performance benchmarks against defined product KPIs.",
   },
 ];
 
 const TICKER = [
-  "Consumer Experience",
-  "UX Transformation",
-  "AI-Powered Features",
-  "Behavioural Analytics",
-  "Mobile Innovation",
-  "CX Optimisation",
-  "Product Strategy",
-  "India → Global",
+  "Behavioural Intelligence",
+  "AI-Native Engineering",
+  "Precision UX",
+  "User Intent Mapping",
+  "Consumer Applications",
+  "Global Scale",
+  "Problem-Layer AI",
+  "India · UK · Europe",
 ];
 
 import spartanHelmet from "@/assets/spartan-helmet.png";
@@ -141,6 +141,7 @@ function Index() {
           {[
             ["About", "#about"],
             ["What We Do", "#services"],
+            ["Our Products", "#products"],
             ["Careers", "#careers"],
             ["Contact", "#contact"],
           ].map(([label, href]) => (
@@ -184,25 +185,35 @@ function Index() {
           <div className="mb-10 flex flex-wrap items-center gap-x-3 gap-y-2">
             <span className="h-px w-9 bg-gradient-to-r from-transparent to-gold" />
             <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] bg-gradient-to-r from-gold2 via-gold to-gold2 bg-clip-text text-transparent">
-              Consumer Experience
+              Behavioural Data
             </span>
             <span className="text-gold/50 text-[0.7rem]">✦</span>
             <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] bg-gradient-to-r from-gold2 via-gold to-gold2 bg-clip-text text-transparent">
-              AI Innovation
+              Precision UX
             </span>
             <span className="text-gold/50 text-[0.7rem]">✦</span>
             <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] bg-gradient-to-r from-gold2 via-gold to-gold2 bg-clip-text text-transparent">
-              UX Transformation
+              AI-Native Products
             </span>
             <span className="h-px w-9 bg-gradient-to-l from-transparent to-gold" />
           </div>
           <h1 className="mb-10 font-serif text-[clamp(2rem,4.2vw,3.8rem)] font-normal leading-[1.1] text-white">
-            Building the Next Generation
+            AI-first consumer applications
             <br />
-            of <em className="not-italic font-serif italic text-gold">Consumer Applications</em>
+            built on one obsession —
+            <br />
+            <em className="not-italic font-serif italic text-gold">creating real solutions.</em>
           </h1>
           <p className="mb-14 max-w-[60ch] text-pretty text-left text-[clamp(0.95rem,1.15vw,1.1rem)] font-light leading-[1.8] text-white/60 sm:leading-[1.85]">
-            Behavioural intelligence meets precision design. Great user experience is the last true competitive advantage. Through consumer experience research, AI innovation, and UX transformation, we engineer products that don't just function — they resonate, retain, and grow.
+            <span className="text-white/80">Behavioural data at the foundation.</span>
+            <span className="text-gold/50"> · </span>
+            <span className="text-white/80">Precision-engineered UX.</span>
+            <span className="text-gold/50"> · </span>
+            <span className="text-white/80">Feature architecture driven by real user intent.</span>
+            <span className="text-gold/50"> · </span>
+            <span className="text-white/80">AI embedded at the problem layer.</span>
+            <span className="text-gold/50"> · </span>
+            <span className="text-white/80">Architected for global scale.</span>
           </p>
           <div className="flex items-center gap-3">
             <span className="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-white/30">
@@ -232,19 +243,16 @@ function Index() {
         <div className="mx-auto max-w-[1240px] px-[5vw]">
           <div className="grid items-start gap-12 md:grid-cols-2 md:gap-28">
             <div className="rev">
-              <SectionLabel>About Us</SectionLabel>
+              <SectionLabel>About</SectionLabel>
               <H2>
-                Building what users <em className="not-italic font-serif italic text-gold">deserve.</em>
+                Engineered on data.<br />Deployed at <em className="not-italic font-serif italic text-gold">scale.</em>
               </H2>
               <p className="max-w-[560px] text-base font-light leading-[1.85] text-slate-ink">
-                Good products deserve great experiences. We look at what stands
-                between users and what they're trying to do, understand why it
-                breaks, and rebuild it so the product works exactly the way
-                people expect.
+                ProApex Innovations builds and deploys AI-first consumer applications. Every product is grounded in quantified behavioural research, engineered with precision UX methodology, and powered by AI integrated at the problem layer — not the interface layer. Built in India, architected for international markets.
               </p>
               <div className="mt-12 border-l-[3px] border-gold bg-cream px-10 py-8">
-                <p className="font-serif text-[1.3rem] font-normal italic leading-[1.55] text-navy">
-                  "The best consumer experiences feel inevitable — like they were always meant to work this way."
+                <p className="font-mono text-[0.78rem] font-normal italic leading-[1.9] text-navy/75 tracking-[0.03em]">
+                  ProApex Innovations Private Limited &nbsp;·&nbsp; Incorporated in India &nbsp;·&nbsp; Operating Markets: India · United Kingdom · Europe
                 </p>
               </div>
             </div>
@@ -255,7 +263,7 @@ function Index() {
                     {p.n}
                   </span>
                   <div>
-                    <div className="mb-1.5 text-[0.95rem] font-semibold tracking-[0.01em] text-navy">
+                    <div className="mb-1.5 text-[0.95rem] font-semibold uppercase tracking-[0.02em] text-navy">
                       {p.t}
                     </div>
                     <div className="text-[0.87rem] font-light leading-[1.75] text-slate-ink">
@@ -278,15 +286,13 @@ function Index() {
             <div>
               <SectionLabel>What We Do</SectionLabel>
               <H2>
-                From friction
+                A defined methodology.
                 <br />
-                to <em className="not-italic font-serif italic text-gold">flow.</em>
+                A measurable <em className="not-italic font-serif italic text-gold">output.</em>
               </H2>
             </div>
             <p className="max-w-[560px] pt-2 text-base font-light leading-[1.85] text-slate-ink">
-              We take on consumer apps that underperform their potential —
-              understand exactly why — and transform them into products people
-              return to.
+              ProApex operates a repeatable product engineering methodology — from behavioural research and UX design through to AI integration and market deployment. Each discipline is applied in sequence, with measurable criteria at every stage.
             </p>
           </div>
           <div className="rev border-t border-line">
@@ -299,10 +305,10 @@ function Index() {
                   {s.n}
                 </span>
                 <div>
-                  <div className="mb-1.5 text-[1.05rem] font-semibold text-navy transition-colors group-hover:text-gold">
+                  <div className="mb-1.5 text-[1.05rem] font-semibold uppercase tracking-[0.03em] text-navy transition-colors group-hover:text-gold">
                     {s.t}
                   </div>
-                  <div className="max-w-[540px] text-[0.87rem] font-light leading-[1.7] text-slate-ink">
+                  <div className="max-w-[580px] text-[0.87rem] font-light leading-[1.8] text-slate-ink">
                     {s.d}
                   </div>
                 </div>
@@ -311,6 +317,91 @@ function Index() {
                 </span>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <div className="mx-[5vw] h-px bg-line" />
+
+      {/* PRODUCTS */}
+      <section id="products" className="bg-white py-28">
+        <div className="mx-auto max-w-[1240px] px-[5vw]">
+          <div className="rev mb-20">
+            <SectionLabel>Our Products</SectionLabel>
+            <H2>
+              Built in-house.
+              <br />
+              Deployed to <em className="not-italic font-serif italic text-gold">market.</em>
+            </H2>
+            <p className="mt-4 max-w-[560px] text-base font-light leading-[1.85] text-slate-ink">
+              ProApex products are built, owned, and operated end-to-end. Each application is the direct output of the ProApex methodology — researched, engineered, and launched by the core team.
+            </p>
+          </div>
+          <div className="rev grid border border-line md:grid-cols-2">
+            {/* Elyxer */}
+            <div className="group border-b border-line bg-white p-10 transition-colors hover:bg-cream md:border-b-0 md:border-r md:p-14">
+              <span className="mb-6 block font-mono text-[0.6rem] uppercase tracking-[0.18em] text-gold">
+                Product 01 · Active Development
+              </span>
+              <div className="mb-2 font-serif text-[2.2rem] font-normal leading-none text-navy">
+                <em className="not-italic font-serif italic text-gold">Elyxer</em>
+              </div>
+              <div className="mb-6 font-mono text-[0.72rem] uppercase tracking-[0.06em] text-muted-ink">
+                AI-Native Consumer Application
+              </div>
+              <p className="mb-8 max-w-[360px] text-[0.87rem] font-light leading-[1.85] text-slate-ink">
+                Elyxer is the first ProApex consumer application — an AI-native product engineered around precision UX and deep behavioural intelligence. Designed for the way users actually interact, not the way interfaces traditionally assume they do.
+              </p>
+              <div className="flex flex-col gap-3 border-t border-line pt-6">
+                {[
+                  ["Category", "Consumer Application"],
+                  ["AI Layer", "Problem-Layer Integration"],
+                  ["Target Markets", "India · UK · Europe"],
+                  ["Architecture", "AI-Native · Mobile-First"],
+                ].map(([k, v]) => (
+                  <div key={k} className="flex items-center justify-between">
+                    <span className="font-mono text-[0.62rem] uppercase tracking-[0.1em] text-muted-ink">
+                      {k}
+                    </span>
+                    <span className="font-mono text-[0.7rem] text-navy">{v}</span>
+                  </div>
+                ))}
+              </div>
+              <span className="mt-6 inline-block rounded-[2px] border border-gold/40 px-2.5 py-1 font-mono text-[0.6rem] uppercase tracking-[0.12em] text-gold">
+                In Development
+              </span>
+            </div>
+            {/* Future */}
+            <div className="bg-white p-10 opacity-60 md:p-14">
+              <span className="mb-6 block font-mono text-[0.6rem] uppercase tracking-[0.18em] text-gold">
+                Product 02 · Pipeline
+              </span>
+              <div className="mb-2 font-serif text-[2.2rem] font-normal leading-none text-muted-ink">
+                Undisclosed
+              </div>
+              <div className="mb-6 font-mono text-[0.72rem] uppercase tracking-[0.06em] text-muted-ink">
+                Next ProApex Product
+              </div>
+              <p className="mb-8 max-w-[360px] text-[0.87rem] font-light leading-[1.85] text-slate-ink">
+                The next ProApex product is currently in the research and behavioural analysis phase. Market, category, and product details will be disclosed at the appropriate stage of development.
+              </p>
+              <div className="flex flex-col gap-3 border-t border-line pt-6">
+                {[
+                  ["Stage", "Behavioural Research Phase"],
+                  ["Disclosure", "TBA"],
+                ].map(([k, v]) => (
+                  <div key={k} className="flex items-center justify-between">
+                    <span className="font-mono text-[0.62rem] uppercase tracking-[0.1em] text-muted-ink">
+                      {k}
+                    </span>
+                    <span className="font-mono text-[0.7rem] text-navy">{v}</span>
+                  </div>
+                ))}
+              </div>
+              <span className="mt-6 inline-block rounded-[2px] border border-line px-2.5 py-1 font-mono text-[0.6rem] uppercase tracking-[0.12em] text-muted-ink">
+                Coming
+              </span>
+            </div>
           </div>
         </div>
       </section>
@@ -324,25 +415,25 @@ function Index() {
               Careers
             </div>
             <h2 className="mb-6 font-serif text-[clamp(2.2rem,4vw,3.8rem)] font-normal leading-[1.15] text-white">
-              Work on things that <em className="not-italic font-serif italic text-gold">matter.</em>
+              Engineers, designers,<br />researchers — <em className="not-italic font-serif italic text-gold">apply.</em>
             </h2>
             <p className="mb-16 max-w-[520px] text-base font-light leading-[1.85] text-white/45">
-              We are building a team of people who care deeply about users and
-              hold craft to an exceptional standard. If that sounds like you,
-              we'd like to hear from you.
+              ProApex is building a focused team of product engineers, UX specialists, AI researchers, and consumer behaviour analysts. Candidates who want to build products that ship, scale, and perform in global markets.
             </p>
           </div>
           <div className="rev rounded border border-gold/25 px-8 py-16 text-center md:px-20 md:py-24">
-            <span className="mb-6 block font-serif text-3xl italic text-gold/30">◎</span>
+            <span className="mb-6 block font-mono text-[0.65rem] uppercase tracking-[0.2em] text-gold/40">
+              Positions Opening
+            </span>
             <div className="mb-3 font-serif text-[1.75rem] font-normal text-white/65">
-              Openings coming soon
+              Roles across all disciplines
             </div>
-            <p className="mx-auto mb-8 max-w-[360px] text-[0.87rem] font-light leading-[1.75] text-white/30">
-              Roles across product, design, and engineering will be listed here as we grow.
+            <p className="mx-auto mb-8 max-w-[400px] text-[0.87rem] font-light leading-[1.8] text-white/30">
+              Product engineering, UX design, AI/ML, consumer research, and growth. Positions will be listed as the team scales. Express early interest below.
             </p>
             <a
               href="mailto:careers@proapexinnovations.com"
-              className="inline-block rounded-[3px] border border-gold/35 px-7 py-2.5 text-[0.8rem] font-medium tracking-[0.06em] text-gold transition-all hover:bg-gold hover:text-navy"
+              className="inline-block rounded-[3px] border border-gold/35 px-7 py-2.5 text-[0.8rem] font-medium uppercase tracking-[0.08em] text-gold transition-all hover:bg-gold hover:text-navy"
             >
               Express Interest
             </a>
@@ -351,20 +442,21 @@ function Index() {
       </section>
 
       {/* CONTACT */}
-      <section id="contact" className="bg-white py-28">
+      <section id="contact" className="bg-cream py-28">
         <div className="mx-auto max-w-[1240px] px-[5vw]">
           <div className="grid items-start gap-12 md:grid-cols-2 md:gap-28">
             <div className="rev">
               <SectionLabel>Contact</SectionLabel>
               <H2>
-                Let's start a <em className="not-italic font-serif italic text-gold">conversation.</em>
+                Partners, investors,<br /><em className="not-italic font-serif italic text-gold">press.</em>
               </H2>
               <div className="mt-12 border-t border-line">
                 {[
-                  ["Email", <a key="e" href="mailto:hello@proapexinnovations.com" className="border-b border-line text-navy transition-colors hover:border-gold">hello@proapexinnovations.com</a>],
-                  ["Location", "India"],
-                  ["Registered As", "ProApex Innovations Private Limited"],
-                  ["Markets", "India · United Kingdom · Europe"],
+                  ["General", <a key="g" href="mailto:hello@proapexinnovations.com" className="border-b border-line text-navy transition-colors hover:border-gold">hello@proapexinnovations.com</a>],
+                  ["Careers", <a key="c" href="mailto:careers@proapexinnovations.com" className="border-b border-line text-navy transition-colors hover:border-gold">careers@proapexinnovations.com</a>],
+                  ["Registered Entity", "ProApex Innovations Private Limited"],
+                  ["Headquarters", "India"],
+                  ["Operating Markets", "India · United Kingdom · Europe"],
                 ].map(([lbl, val], i) => (
                   <div
                     key={i}
@@ -382,12 +474,10 @@ function Index() {
             </div>
             <div className="rev pt-2">
               <p className="mb-7 font-serif text-[clamp(1.5rem,2.8vw,2.1rem)] font-normal italic leading-[1.45] text-navy">
-                "Whether you're a brand, a partner, or simply curious — our door is open."
+                "ProApex is in active development. Selective conversations with strategic partners and investors are open."
               </p>
-              <p className="text-[0.87rem] font-light leading-[1.8] text-slate-ink">
-                We're at an early stage and intentionally selective about who we
-                work with. Reach out and tell us about the problem you're
-                trying to solve.
+              <p className="text-[0.87rem] font-light leading-[1.85] text-slate-ink">
+                If you represent a potential distribution partner, investment vehicle, or market-entry collaborator across India, UK, or Europe — reach out with a brief outline of the opportunity. All enquiries are reviewed directly by the founding team.
               </p>
             </div>
           </div>
@@ -407,6 +497,8 @@ function Index() {
             {[
               ["About", "#about"],
               ["What We Do", "#services"],
+              ["Products", "#products"],
+              ["Careers", "#careers"],
               ["Contact", "#contact"],
             ].map(([l, h]) => (
               <a key={h} href={h} className="text-[0.8rem] text-white/35 transition-colors hover:text-gold">
