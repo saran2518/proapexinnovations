@@ -204,28 +204,44 @@ function Index() {
             <br />
             <em className="not-italic font-serif italic text-gold">creating real solutions.</em>
           </h1>
-          <div className="mb-14 max-w-2xl space-y-5 border-l border-white/10 pl-6">
-            {[
-              { t: "Behavioural data", d: "at the foundation." },
-              { t: "Precision-engineered", d: "user experience." },
-              { t: "Feature architecture", d: "driven by real user intent." },
-              { t: "AI embedded", d: "at the problem layer." },
-              { t: "Architected", d: "for global scale." },
-            ].map((item, i) => (
-              <div
-                key={i}
-                className="group relative flex items-baseline gap-4"
-              >
-                <span
-                  aria-hidden
-                  className="absolute -left-[25px] top-[0.7em] h-1.5 w-1.5 rounded-full bg-gold/40 transition-all group-hover:bg-gold group-hover:shadow-[0_0_12px_var(--gold)]"
-                />
-                <p className="text-[clamp(1rem,1.2vw,1.15rem)] font-light leading-relaxed text-white/70">
-                  <span className="font-serif italic text-white">{item.t}</span>{" "}
-                  <span className="text-white/55">{item.d}</span>
-                </p>
-              </div>
-            ))}
+          <div className="mb-14 grid max-w-3xl grid-cols-1 gap-x-12 gap-y-5 md:grid-cols-[1fr_auto_1fr] md:items-center">
+            {(() => {
+              const left = [
+                "Behavioural data at the foundation",
+                "Feature architecture driven by real user intent",
+                "Architected for global scale",
+              ];
+              const right = [
+                "Precision-engineered UX",
+                "AI embedded at the problem layer",
+                "Innovation embedded at every layer",
+              ];
+              return (
+                <>
+                  <ul className="space-y-5">
+                    {left.map((t, i) => (
+                      <li
+                        key={i}
+                        className="font-serif text-[clamp(1rem,1.15vw,1.15rem)] font-light italic text-white/80"
+                      >
+                        {t}
+                      </li>
+                    ))}
+                  </ul>
+                  <div aria-hidden className="hidden md:block h-full w-px bg-white/15" />
+                  <ul className="space-y-5">
+                    {right.map((t, i) => (
+                      <li
+                        key={i}
+                        className="font-serif text-[clamp(1rem,1.15vw,1.15rem)] font-light italic text-white/80"
+                      >
+                        {t}
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              );
+            })()}
           </div>
         </div>
       </section>
