@@ -103,7 +103,7 @@ function Logo() {
       />
       <div className="flex flex-col leading-none">
         <span className="font-serif text-[1.45rem] font-normal tracking-[0.02em] text-white">
-          APEX
+          <span className="bg-gradient-to-r from-gold2 via-gold to-gold2 bg-clip-text text-transparent">PRO</span>APEX
         </span>
         <span className="mt-1 font-mono text-[0.55rem] tracking-[0.32em] text-gold">
           INNOVATIONS
