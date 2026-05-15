@@ -216,22 +216,22 @@ function Index() {
               ];
               return (
                 <>
-                  <ul className="space-y-3">
+                  <ul className="space-y-5">
                     {left.map((t, i) => (
                       <li
                         key={i}
-                        className="font-serif text-[clamp(0.85rem,1vw,1rem)] font-light italic text-white/80"
+                        className="font-sans text-[0.95rem] font-light tracking-[0.01em] text-white/75"
                       >
                         {t}
                       </li>
                     ))}
                   </ul>
                   <div aria-hidden className="hidden md:block h-full w-px bg-white/15" />
-                  <ul className="space-y-3">
+                  <ul className="space-y-5">
                     {right.map((t, i) => (
                       <li
                         key={i}
-                        className="font-serif text-[clamp(0.85rem,1vw,1rem)] font-light italic text-white/80"
+                        className="font-sans text-[0.95rem] font-light tracking-[0.01em] text-white/75"
                       >
                         {t}
                       </li>
