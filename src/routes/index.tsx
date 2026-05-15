@@ -198,11 +198,9 @@ function Index() {
             <span className="h-px w-9 bg-gradient-to-l from-transparent to-gold" />
           </div>
           <h1 className="mb-10 font-serif text-[clamp(2rem,4.2vw,3.8rem)] font-normal leading-[1.1] text-white">
-            AI-first consumer applications
+            AI-first consumer applications built on
             <br />
-            built on one obsession —
-            <br />
-            <em className="not-italic font-serif italic text-gold">creating real solutions.</em>
+            <em className="not-italic font-serif italic text-gold">one obsession — creating real solutions.</em>
           </h1>
           <div className="mb-14 grid max-w-3xl grid-cols-1 gap-x-12 gap-y-5 md:grid-cols-[1fr_auto_1fr] md:items-center">
             {(() => {
