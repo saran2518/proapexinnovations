@@ -215,12 +215,6 @@ function Index() {
             <span className="text-gold/50"> · </span>
             <span className="text-white/80">Architected for global scale.</span>
           </p>
-          <div className="flex items-center gap-3">
-            <span className="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-white/30">
-              Scroll
-            </span>
-            <div className="scroll-bar relative h-px w-12 overflow-hidden bg-white/15" />
-          </div>
         </div>
       </section>
 
