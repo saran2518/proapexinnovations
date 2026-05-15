@@ -187,7 +187,7 @@ function Index() {
               Consumer Experience · AI Innovation · UX Transformation
             </span>
           </div>
-          <h1 className="mb-10 font-serif text-[clamp(2.4rem,5vw,4.8rem)] font-normal leading-[1.1] text-white">
+          <h1 className="mb-10 font-serif text-[clamp(2rem,4.2vw,3.8rem)] font-normal leading-[1.1] text-white">
             Building the Next Generation
             <br />
             of <em className="not-italic font-serif italic text-gold">Consumer Applications</em>
