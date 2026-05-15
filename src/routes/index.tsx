@@ -183,11 +183,11 @@ function Index() {
         <div className="relative z-10 max-w-[900px]">
           <div className="mb-10 flex items-center gap-[14px]">
             <div className="h-px w-9 bg-gold" />
-            <span className="font-mono text-[0.68rem] uppercase tracking-[0.16em] text-gold/80">
+<span className="font-mono text-[0.85rem] uppercase tracking-[0.16em] text-gold/80">
               Consumer Experience · AI Innovation · UX Transformation
             </span>
           </div>
-          <h1 className="mb-10 font-serif text-[clamp(3rem,6.5vw,6rem)] font-normal leading-[1.1] text-white">
+          <h1 className="mb-10 font-serif text-[clamp(2.4rem,5vw,4.8rem)] font-normal leading-[1.1] text-white">
             Building the Next Generation
             <br />
             of <em className="not-italic font-serif italic text-gold">Consumer Applications</em>
