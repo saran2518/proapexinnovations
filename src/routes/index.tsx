@@ -204,17 +204,30 @@ function Index() {
             <br />
             <em className="not-italic font-serif italic text-gold">creating real solutions.</em>
           </h1>
-          <p className="mb-14 max-w-[60ch] text-pretty text-left text-[clamp(0.95rem,1.15vw,1.1rem)] font-light leading-[1.8] text-white/60 sm:leading-[1.85]">
-            <span className="text-white/80">Behavioural data at the foundation.</span>
-            <span className="text-gold/50"> · </span>
-            <span className="text-white/80">Precision-engineered UX.</span>
-            <span className="text-gold/50"> · </span>
-            <span className="text-white/80">Feature architecture driven by real user intent.</span>
-            <span className="text-gold/50"> · </span>
-            <span className="text-white/80">AI embedded at the problem layer.</span>
-            <span className="text-gold/50"> · </span>
-            <span className="text-white/80">Architected for global scale.</span>
-          </p>
+          <ul className="mb-14 grid max-w-3xl gap-px overflow-hidden rounded-sm border border-white/10 bg-white/5 sm:grid-cols-2">
+            {[
+              { k: "01", t: "Behavioural Foundation", d: "Real consumer data at the core." },
+              { k: "02", t: "Precision UX", d: "Engineered for clarity and intent." },
+              { k: "03", t: "Intent-Led Features", d: "Architecture driven by what users actually do." },
+              { k: "04", t: "Problem-Layer AI", d: "AI embedded where it changes outcomes." },
+              { k: "05", t: "Global Scale", d: "Built to perform across markets." },
+            ].map((item) => (
+              <li
+                key={item.k}
+                className="group relative flex flex-col gap-2 bg-navy/60 p-5 transition-colors hover:bg-navy/40"
+              >
+                <span className="font-mono text-[0.65rem] uppercase tracking-[0.22em] text-gold/70">
+                  {item.k}
+                </span>
+                <span className="font-serif text-[1.05rem] leading-tight text-white">
+                  {item.t}
+                </span>
+                <span className="text-[0.85rem] font-light leading-relaxed text-white/55">
+                  {item.d}
+                </span>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
