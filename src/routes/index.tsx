@@ -170,7 +170,7 @@ function Index() {
       {/* HERO */}
       <section
         id="hero"
-        className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-navy px-[5vw] pb-24 pt-[calc(72px+4rem)]"
+        className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-navy px-[5vw] pb-16 pt-[calc(72px+3rem)]"
       >
         <div
           className="absolute inset-0"
@@ -182,7 +182,7 @@ function Index() {
         />
         <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
         <div className="relative z-10 max-w-[900px]">
-          <div className="mb-10 flex flex-wrap items-center gap-x-3 gap-y-2">
+          <div className="mb-6 flex flex-wrap items-center gap-x-3 gap-y-2">
             <span className="h-px w-9 bg-gradient-to-r from-transparent to-gold" />
             <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] bg-gradient-to-r from-gold2 via-gold to-gold2 bg-clip-text text-transparent">
               Behavioural Data
@@ -197,7 +197,7 @@ function Index() {
             </span>
             <span className="h-px w-9 bg-gradient-to-l from-transparent to-gold" />
           </div>
-          <h1 className="mb-10 font-serif text-[clamp(2rem,4.2vw,3.8rem)] font-normal leading-[1.1] text-white">
+          <h1 className="mb-6 font-serif text-[clamp(1.8rem,3.4vw,3rem)] font-normal leading-[1.12] text-white">
             AI-first consumer applications built on
             <br />
             <em className="not-italic font-serif italic text-gold">one obsession — creating real solutions.</em>
@@ -216,22 +216,22 @@ function Index() {
               ];
               return (
                 <>
-                  <ul className="space-y-5">
+                  <ul className="space-y-3">
                     {left.map((t, i) => (
                       <li
                         key={i}
-                        className="font-serif text-[clamp(1rem,1.15vw,1.15rem)] font-light italic text-white/80"
+                        className="font-serif text-[clamp(0.85rem,1vw,1rem)] font-light italic text-white/80"
                       >
                         {t}
                       </li>
                     ))}
                   </ul>
                   <div aria-hidden className="hidden md:block h-full w-px bg-white/15" />
-                  <ul className="space-y-5">
+                  <ul className="space-y-3">
                     {right.map((t, i) => (
                       <li
                         key={i}
-                        className="font-serif text-[clamp(1rem,1.15vw,1.15rem)] font-light italic text-white/80"
+                        className="font-serif text-[clamp(0.85rem,1vw,1rem)] font-light italic text-white/80"
                       >
                         {t}
                       </li>
