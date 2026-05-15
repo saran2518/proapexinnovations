@@ -181,11 +181,20 @@ function Index() {
         />
         <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
         <div className="relative z-10 max-w-[900px]">
-          <div className="mb-10 flex items-center gap-[14px]">
-            <div className="h-px w-9 bg-gold" />
-            <span className="font-mono text-[1rem] uppercase tracking-[0.16em] text-gold/80">
-              Consumer Experience · AI Innovation · UX Transformation
+          <div className="mb-10 flex flex-wrap items-center gap-x-3 gap-y-2">
+            <span className="h-px w-9 bg-gradient-to-r from-transparent to-gold" />
+            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] bg-gradient-to-r from-gold2 via-gold to-gold2 bg-clip-text text-transparent">
+              Consumer Experience
             </span>
+            <span className="text-gold/50 text-[0.7rem]">✦</span>
+            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] bg-gradient-to-r from-gold2 via-gold to-gold2 bg-clip-text text-transparent">
+              AI Innovation
+            </span>
+            <span className="text-gold/50 text-[0.7rem]">✦</span>
+            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] bg-gradient-to-r from-gold2 via-gold to-gold2 bg-clip-text text-transparent">
+              UX Transformation
+            </span>
+            <span className="h-px w-9 bg-gradient-to-l from-transparent to-gold" />
           </div>
           <h1 className="mb-10 font-serif text-[clamp(2rem,4.2vw,3.8rem)] font-normal leading-[1.1] text-white">
             Building the Next Generation
