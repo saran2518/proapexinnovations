@@ -192,12 +192,8 @@ function Index() {
             <br />
             of <em className="not-italic font-serif italic text-gold">Consumer Applications</em>
           </h1>
-          <p className="mb-14 max-w-[540px] text-[1.05rem] font-light leading-[1.85] text-white/55">
-            Behavioural intelligence meets precision design. Great user
-            experience is the last true competitive advantage. Through consumer
-            experience research, AI innovation, and UX transformation, we
-            engineer products that don't just function — they resonate, retain,
-            and grow.
+          <p className="mb-14 max-w-[60ch] text-pretty text-left text-[clamp(0.95rem,1.15vw,1.1rem)] font-light leading-[1.8] text-white/60 sm:leading-[1.85]">
+            Behavioural intelligence meets precision design. Great user experience is the last true competitive advantage. Through consumer experience research, AI innovation, and UX transformation, we engineer products that don't just function — they resonate, retain, and grow.
           </p>
           <div className="flex items-center gap-3">
             <span className="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-white/30">
