@@ -343,14 +343,14 @@ function Index() {
               <span className="mb-6 block font-mono text-[0.6rem] uppercase tracking-[0.18em] text-gold">
                 Product 01 · Active Development
               </span>
-              <div className="mb-2 font-serif text-[2.2rem] font-normal leading-none text-navy">
-                <em className="not-italic font-serif italic text-gold">Elyxer</em>
+              <div className="mb-2 font-serif text-[2.2rem] font-normal leading-none text-muted-ink">
+                Undisclosed
               </div>
               <div className="mb-6 font-mono text-[0.72rem] uppercase tracking-[0.06em] text-muted-ink">
                 AI-Native Consumer Application
               </div>
               <p className="mb-8 max-w-[360px] text-[0.87rem] font-light leading-[1.85] text-slate-ink">
-                Elyxer is the first ProApex consumer application — an AI-native product engineered around precision UX and deep behavioural intelligence. Designed for the way users actually interact, not the way interfaces traditionally assume they do.
+                The first ProApex consumer application — an AI-native product engineered around precision UX and deep behavioural intelligence. Designed for the way users actually interact, not the way interfaces traditionally assume they do.
               </p>
               <div className="flex flex-col gap-3 border-t border-line pt-6">
                 {[
@@ -402,6 +402,22 @@ function Index() {
                 Coming
               </span>
             </div>
+          </div>
+          <div className="rev mt-16 flex flex-col items-start justify-between gap-6 border-t border-line pt-10 md:flex-row md:items-center">
+            <div>
+              <div className="mb-2 font-mono text-[0.65rem] uppercase tracking-[0.18em] text-gold">
+                For Investors & Partners
+              </div>
+              <p className="max-w-[520px] text-[0.92rem] font-light leading-[1.7] text-slate-ink">
+                Selective conversations open with strategic partners and investors aligned with the ProApex thesis.
+              </p>
+            </div>
+            <a
+              href="#contact"
+              className="inline-block whitespace-nowrap rounded-[3px] border border-navy bg-navy px-7 py-3 font-mono text-[0.75rem] uppercase tracking-[0.12em] text-gold transition-all hover:bg-gold hover:text-navy"
+            >
+              Get in Touch
+            </a>
           </div>
         </div>
       </section>
