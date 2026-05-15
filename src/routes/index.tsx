@@ -343,14 +343,14 @@ function Index() {
               <span className="mb-6 block font-mono text-[0.6rem] uppercase tracking-[0.18em] text-gold">
                 Product 01 · Active Development
               </span>
-              <div className="mb-2 font-serif text-[2.2rem] font-normal leading-none text-navy">
-                <em className="not-italic font-serif italic text-gold">Elyxer</em>
+              <div className="mb-2 font-serif text-[2.2rem] font-normal leading-none text-muted-ink">
+                Undisclosed
               </div>
               <div className="mb-6 font-mono text-[0.72rem] uppercase tracking-[0.06em] text-muted-ink">
                 AI-Native Consumer Application
               </div>
               <p className="mb-8 max-w-[360px] text-[0.87rem] font-light leading-[1.85] text-slate-ink">
-                Elyxer is the first ProApex consumer application — an AI-native product engineered around precision UX and deep behavioural intelligence. Designed for the way users actually interact, not the way interfaces traditionally assume they do.
+                The first ProApex consumer application — an AI-native product engineered around precision UX and deep behavioural intelligence. Designed for the way users actually interact, not the way interfaces traditionally assume they do.
               </p>
               <div className="flex flex-col gap-3 border-t border-line pt-6">
                 {[
