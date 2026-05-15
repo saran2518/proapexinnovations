@@ -193,9 +193,11 @@ function Index() {
             of <em className="not-italic font-serif italic text-gold">Consumer Applications</em>
           </h1>
           <p className="mb-14 max-w-[540px] text-[1.05rem] font-light leading-[1.85] text-white/55">
-            We analyse consumer behaviour, identify what frustrates users, and
-            transform those experiences — with precision design and AI-powered
-            features that make a real difference.
+            Behavioural intelligence meets precision design. Great user
+            experience is the last true competitive advantage. Through consumer
+            experience research, AI innovation, and UX transformation, we
+            engineer products that don't just function — they resonate, retain,
+            and grow.
           </p>
           <div className="flex items-center gap-3">
             <span className="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-white/30">
