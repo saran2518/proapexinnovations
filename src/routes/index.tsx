@@ -182,7 +182,7 @@ function Index() {
         />
         <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
         <div className="relative z-10 max-w-[900px]">
-          <div className="mb-6 flex flex-wrap items-center gap-x-3 gap-y-2">
+          <div className="mb-12 flex flex-wrap items-center gap-x-3 gap-y-2">
             <span className="h-px w-9 bg-gradient-to-r from-transparent to-gold" />
             <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] bg-gradient-to-r from-gold2 via-gold to-gold2 bg-clip-text text-transparent">
               Behavioural Data
@@ -197,12 +197,12 @@ function Index() {
             </span>
             <span className="h-px w-9 bg-gradient-to-l from-transparent to-gold" />
           </div>
-          <h1 className="mb-6 font-serif text-[clamp(1.8rem,3.4vw,3rem)] font-normal leading-[1.12] text-white">
+          <h1 className="mb-14 font-serif text-[clamp(1.8rem,3.4vw,3rem)] font-normal leading-[1.12] text-white">
             AI-first consumer applications built on
             <br />
             <em className="not-italic font-serif italic text-gold">one obsession — “creating real solutions”</em>
           </h1>
-          <div className="mb-14 grid max-w-3xl grid-cols-1 gap-x-12 gap-y-5 md:grid-cols-[1fr_auto_1fr] md:items-center">
+          <div className="mt-4 grid max-w-3xl grid-cols-1 gap-x-12 gap-y-5 md:grid-cols-[1fr_auto_1fr] md:items-center">
             {(() => {
               const left = [
                 "Behavioural data at the foundation",
