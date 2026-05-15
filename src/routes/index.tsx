@@ -197,7 +197,7 @@ function Index() {
             </span>
             <span className="h-px w-9 bg-gradient-to-l from-transparent to-gold" />
           </div>
-          <h1 className="mb-10 font-serif text-[clamp(2rem,4.2vw,3.8rem)] font-normal leading-[1.1] text-white">
+          <h1 className="mb-6 font-serif text-[clamp(1.8rem,3.4vw,3rem)] font-normal leading-[1.12] text-white">
             AI-first consumer applications built on
             <br />
             <em className="not-italic font-serif italic text-gold">one obsession — creating real solutions.</em>
