@@ -204,30 +204,29 @@ function Index() {
             <br />
             <em className="not-italic font-serif italic text-gold">creating real solutions.</em>
           </h1>
-          <ul className="mb-14 grid max-w-3xl gap-px overflow-hidden rounded-sm border border-white/10 bg-white/5 sm:grid-cols-2">
+          <div className="mb-14 max-w-2xl space-y-5 border-l border-white/10 pl-6">
             {[
-              { k: "01", t: "Behavioural Foundation", d: "Real consumer data at the core." },
-              { k: "02", t: "Precision UX", d: "Engineered for clarity and intent." },
-              { k: "03", t: "Intent-Led Features", d: "Architecture driven by what users actually do." },
-              { k: "04", t: "Problem-Layer AI", d: "AI embedded where it changes outcomes." },
-              { k: "05", t: "Global Scale", d: "Built to perform across markets." },
-            ].map((item) => (
-              <li
-                key={item.k}
-                className="group relative flex flex-col gap-2 bg-navy/60 p-5 transition-colors hover:bg-navy/40"
+              { t: "Behavioural data", d: "at the foundation." },
+              { t: "Precision-engineered", d: "user experience." },
+              { t: "Feature architecture", d: "driven by real user intent." },
+              { t: "AI embedded", d: "at the problem layer." },
+              { t: "Architected", d: "for global scale." },
+            ].map((item, i) => (
+              <div
+                key={i}
+                className="group relative flex items-baseline gap-4"
               >
-                <span className="font-mono text-[0.65rem] uppercase tracking-[0.22em] text-gold/70">
-                  {item.k}
-                </span>
-                <span className="font-serif text-[1.05rem] leading-tight text-white">
-                  {item.t}
-                </span>
-                <span className="text-[0.85rem] font-light leading-relaxed text-white/55">
-                  {item.d}
-                </span>
-              </li>
+                <span
+                  aria-hidden
+                  className="absolute -left-[25px] top-[0.7em] h-1.5 w-1.5 rounded-full bg-gold/40 transition-all group-hover:bg-gold group-hover:shadow-[0_0_12px_var(--gold)]"
+                />
+                <p className="text-[clamp(1rem,1.2vw,1.15rem)] font-light leading-relaxed text-white/70">
+                  <span className="font-serif italic text-white">{item.t}</span>{" "}
+                  <span className="text-white/55">{item.d}</span>
+                </p>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       </section>
 
