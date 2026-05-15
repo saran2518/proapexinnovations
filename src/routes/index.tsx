@@ -83,21 +83,33 @@ const TICKER = [
   "India → Global",
 ];
 
+import spartanHelmet from "@/assets/spartan-helmet.png";
+
 function Logo() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 56" width="240" height="48" aria-label="ProApex Innovations">
-      <path d="M10,2 C14,2 20,4 24,8 C28,4 34,2 40,2 C44,1 48,3 46,7 C42,6 38,7 36,10 C40,9 44,10 46,14 C42,13 38,14 36,18 L36,44 C36,47 33,49 30,49 L20,49 C17,49 14,47 14,44 L14,18 C12,14 8,13 4,14 C6,10 10,9 14,10 C12,7 8,6 4,7 C2,3 6,1 10,2 Z" fill="#c8a96e" />
-      <ellipse cx="25" cy="26" rx="12" ry="14" fill="#c8a96e" />
-      <rect x="17" y="28" width="16" height="3" rx="1.5" fill="#1a1f3c" />
-      <path d="M13,32 Q11,38 13,44 L14,44 L14,32 Z" fill="#e8c98a" />
-      <path d="M37,32 Q39,38 37,44 L36,44 L36,32 Z" fill="#e8c98a" />
-      <rect x="14" y="44" width="22" height="5" rx="2" fill="#e8c98a" />
-      <rect x="52" y="6" width="38" height="22" rx="3" fill="#1a1f3c" stroke="#c8a96e" strokeWidth="1.2" />
-      <text x="71" y="21" fontFamily="Outfit, Arial, sans-serif" fontSize="11" fontWeight="700" textAnchor="middle" fill="#c8a96e" letterSpacing="1.5">PRO</text>
-      <text x="96" y="38" fontFamily="Outfit, Arial, sans-serif" fontSize="34" fontWeight="700" fill="#ffffff" letterSpacing="-0.5">APEX</text>
-      <text x="97" y="50" fontFamily="Outfit, Arial, sans-serif" fontSize="8" fontWeight="400" fill="#c8a96e" letterSpacing="5">INNOVATIONS</text>
-      <line x1="96" y1="54" x2="330" y2="54" stroke="#c8a96e" strokeWidth="0.7" opacity="0.5" />
-    </svg>
+    <div className="flex items-center gap-3" aria-label="ProApex Innovations">
+      <div
+        className="h-11 w-10 shrink-0 bg-gold"
+        style={{
+          WebkitMaskImage: `url(${spartanHelmet})`,
+          maskImage: `url(${spartanHelmet})`,
+          WebkitMaskRepeat: "no-repeat",
+          maskRepeat: "no-repeat",
+          WebkitMaskSize: "contain",
+          maskSize: "contain",
+          WebkitMaskPosition: "center",
+          maskPosition: "center",
+        }}
+      />
+      <div className="flex flex-col leading-none">
+        <span className="font-serif text-[1.45rem] font-normal tracking-[0.02em] text-white">
+          APEX
+        </span>
+        <span className="mt-1 font-mono text-[0.55rem] tracking-[0.32em] text-gold">
+          INNOVATIONS
+        </span>
+      </div>
+    </div>
   );
 }
 
