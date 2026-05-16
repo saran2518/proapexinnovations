@@ -83,32 +83,24 @@ const TICKER = [
   "India · UK · Europe",
 ];
 
-import spartanHelmet from "@/assets/spartan-helmet.png";
+import proapexLogo from "@/assets/proapex-mark.png";
 
 function Logo() {
   return (
-    <div className="flex items-center gap-3" aria-label="ProApex Innovations">
+    <div className="flex items-center" aria-label="ProApex Innovations">
       <div
-        className="h-11 w-10 shrink-0 bg-gold"
+        className="h-12 w-[200px] shrink-0 bg-gradient-to-r from-gold2 via-gold to-gold2"
         style={{
-          WebkitMaskImage: `url(${spartanHelmet})`,
-          maskImage: `url(${spartanHelmet})`,
+          WebkitMaskImage: `url(${proapexLogo})`,
+          maskImage: `url(${proapexLogo})`,
           WebkitMaskRepeat: "no-repeat",
           maskRepeat: "no-repeat",
           WebkitMaskSize: "contain",
           maskSize: "contain",
-          WebkitMaskPosition: "center",
-          maskPosition: "center",
+          WebkitMaskPosition: "left center",
+          maskPosition: "left center",
         }}
       />
-      <div className="flex flex-col leading-none">
-        <span className="font-serif text-[1.45rem] font-normal tracking-[0.02em] text-white">
-          <span className="bg-gradient-to-r from-gold2 via-gold to-gold2 bg-clip-text text-transparent">PRO</span>APEX
-        </span>
-        <span className="mt-1 font-mono text-[0.55rem] tracking-[0.32em] text-gold">
-          INNOVATIONS
-        </span>
-      </div>
     </div>
   );
 }
