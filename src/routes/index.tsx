@@ -88,18 +88,11 @@ import proapexLogo from "@/assets/proapex-mark.png";
 function Logo() {
   return (
     <div className="flex items-center" aria-label="ProApex Innovations">
-      <div
-        className="h-14 w-[260px] shrink-0 bg-gradient-to-r from-gold2 via-gold to-gold2"
-        style={{
-          WebkitMaskImage: `url(${proapexLogo})`,
-          maskImage: `url(${proapexLogo})`,
-          WebkitMaskRepeat: "no-repeat",
-          maskRepeat: "no-repeat",
-          WebkitMaskSize: "contain",
-          maskSize: "contain",
-          WebkitMaskPosition: "left center",
-          maskPosition: "left center",
-        }}
+      <img
+        src={proapexLogo}
+        alt="ProApex Innovations"
+        className="h-12 w-auto select-none"
+        draggable={false}
       />
     </div>
   );
