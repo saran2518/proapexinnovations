@@ -89,7 +89,7 @@ function Logo() {
   return (
     <div className="flex items-center" aria-label="ProApex Innovations">
       <div
-        className="h-12 w-[200px] shrink-0 bg-gradient-to-r from-gold2 via-gold to-gold2"
+        className="h-14 w-[260px] shrink-0 bg-gradient-to-r from-gold2 via-gold to-gold2"
         style={{
           WebkitMaskImage: `url(${proapexLogo})`,
           maskImage: `url(${proapexLogo})`,
