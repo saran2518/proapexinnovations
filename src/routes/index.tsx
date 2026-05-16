@@ -88,17 +88,17 @@ import proapexWordmark from "@/assets/proapex-wordmark.png";
 
 function Logo() {
   return (
-    <div className="flex items-center gap-3" aria-label="ProApex Innovations">
+    <div className="flex items-center gap-4" aria-label="ProApex Innovations">
       <img
         src={proapexMark}
         alt=""
-        className="h-10 w-auto select-none"
+        className="h-16 w-auto select-none"
         draggable={false}
       />
       <img
         src={proapexWordmark}
         alt="ProApex Innovations"
-        className="h-5 w-auto select-none"
+        className="h-9 w-auto select-none"
         draggable={false}
       />
     </div>
