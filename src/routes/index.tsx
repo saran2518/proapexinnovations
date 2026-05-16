@@ -83,15 +83,22 @@ const TICKER = [
   "India · UK · Europe",
 ];
 
-import proapexLogo from "@/assets/proapex-mark.png";
+import proapexMark from "@/assets/proapex-mark.png";
+import proapexWordmark from "@/assets/proapex-wordmark.png";
 
 function Logo() {
   return (
-    <div className="flex items-center" aria-label="ProApex Innovations">
+    <div className="flex items-center gap-3" aria-label="ProApex Innovations">
       <img
-        src={proapexLogo}
+        src={proapexMark}
+        alt=""
+        className="h-10 w-auto select-none"
+        draggable={false}
+      />
+      <img
+        src={proapexWordmark}
         alt="ProApex Innovations"
-        className="h-12 w-auto select-none"
+        className="h-5 w-auto select-none"
         draggable={false}
       />
     </div>
