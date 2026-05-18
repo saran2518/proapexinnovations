@@ -91,7 +91,7 @@ function Logo() {
       <img
         src={proapexMark}
         alt="ProApex Innovations"
-        className="h-[130px] w-auto select-none"
+        className="h-[150px] w-auto select-none"
         draggable={false}
       />
     </div>
@@ -122,7 +122,7 @@ function Index() {
   return (
     <div>
       {/* NAV */}
-      <nav className="fixed inset-x-0 top-0 z-[200] flex h-[140px] items-center justify-between border-b border-line bg-white pl-4 pr-[5vw]">
+      <nav className="fixed inset-x-0 top-0 z-[200] flex h-[160px] items-center justify-between border-b border-line bg-white pl-4 pr-[5vw]">
         <a href="#hero" className="flex shrink-0 items-center">
           <Logo />
         </a>
@@ -159,7 +159,7 @@ function Index() {
       {/* HERO */}
       <section
         id="hero"
-        className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-navy px-[5vw] pb-16 pt-[calc(140px+3rem)]"
+        className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-navy px-[5vw] pb-16 pt-[calc(160px+3rem)]"
       >
         <div
           className="absolute inset-0"
