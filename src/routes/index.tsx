@@ -84,6 +84,7 @@ const TICKER = [
 ];
 
 import proapexMark from "@/assets/proapex-mark.png";
+import heroNeural from "@/assets/hero-ai-neural.png";
 
 function Logo() {
   return (
