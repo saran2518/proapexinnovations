@@ -346,9 +346,21 @@ function Index() {
                 A measurable <em className="not-italic font-serif italic text-gold">output.</em>
               </H2>
             </div>
-            <p className="max-w-[560px] pt-2 text-base font-light leading-[1.85] text-slate-ink">
-              ProApex operates a repeatable product engineering methodology — from behavioural research and UX design through to AI integration and market deployment. Each discipline is applied in sequence, with measurable criteria at every stage.
-            </p>
+            <div>
+              <p className="max-w-[560px] pt-2 text-base font-light leading-[1.85] text-slate-ink">
+                ProApex operates a repeatable product engineering methodology — from behavioural research and UX design through to AI integration and market deployment. Each discipline is applied in sequence, with measurable criteria at every stage.
+              </p>
+              <div className="relative mt-8 overflow-hidden rounded-[4px] border border-line shadow-[0_20px_60px_-30px_rgba(12,74,110,0.35)]">
+                <img
+                  src={techUx}
+                  alt="Layered UX interface mockups for AI-native consumer apps"
+                  loading="lazy"
+                  width={1280}
+                  height={960}
+                  className="block h-auto w-full"
+                />
+              </div>
+            </div>
           </div>
           <div className="rev border-t border-line">
             {SERVICES.map((s) => (
