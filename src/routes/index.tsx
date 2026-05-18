@@ -84,6 +84,7 @@ const TICKER = [
 ];
 
 import proapexMark from "@/assets/proapex-mark.png";
+import heroNetwork from "@/assets/hero-network.png";
 
 function Logo() {
   return (
@@ -170,6 +171,23 @@ function Index() {
           }}
         />
         <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-white/40 to-transparent" />
+        {/* Hero network visual — right side, blended into navy */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-y-0 right-0 hidden w-[60%] md:block"
+          style={{
+            backgroundImage: `url(${heroNetwork})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center right",
+            backgroundRepeat: "no-repeat",
+            mixBlendMode: "screen",
+            opacity: 0.75,
+            maskImage:
+              "linear-gradient(to right, transparent 0%, rgba(0,0,0,0.6) 35%, #000 70%)",
+            WebkitMaskImage:
+              "linear-gradient(to right, transparent 0%, rgba(0,0,0,0.6) 35%, #000 70%)",
+          }}
+        />
         <div className="relative z-10 max-w-[900px]">
           <div className="mb-12 flex flex-wrap items-center gap-x-3 gap-y-2">
             <span className="h-px w-9 bg-gradient-to-r from-transparent to-white/60" />
