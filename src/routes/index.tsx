@@ -171,6 +171,22 @@ function Index() {
           }}
         />
         <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-white/40 to-transparent" />
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-y-0 right-0 hidden lg:block w-[55%] xl:w-[50%]"
+          style={{
+            backgroundImage: `url(${heroNeural})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center right",
+            backgroundRepeat: "no-repeat",
+            mixBlendMode: "lighten",
+            maskImage:
+              "linear-gradient(to right, transparent 0%, black 35%, black 100%)",
+            WebkitMaskImage:
+              "linear-gradient(to right, transparent 0%, black 35%, black 100%)",
+            opacity: 0.85,
+          }}
+        />
         <div className="relative z-10 max-w-[900px]">
           <div className="mb-12 flex flex-wrap items-center gap-x-3 gap-y-2">
             <span className="h-px w-9 bg-gradient-to-r from-transparent to-white/60" />
