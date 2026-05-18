@@ -447,18 +447,18 @@ function Index() {
             </p>
           </div>
           <div className="rev rounded border border-white/20 px-8 py-16 text-center md:px-20 md:py-24">
-            <span className="mb-6 block font-mono text-[0.65rem] uppercase tracking-[0.2em] text-white/55">
+            <span className="mb-6 block font-mono text-[0.78rem] uppercase tracking-[0.2em] text-white/70">
               Positions Opening
             </span>
-            <div className="mb-3 font-serif text-[1.75rem] font-normal text-white/90">
+            <div className="mb-3 font-serif text-[1.75rem] font-normal text-white/95">
               Roles across all disciplines
             </div>
-            <p className="mx-auto mb-8 max-w-[400px] text-[0.87rem] font-light leading-[1.8] text-white/55">
+            <p className="mx-auto mb-8 max-w-[400px] text-[0.95rem] font-light leading-[1.8] text-white/70">
               Product engineering, UX design, AI/ML, consumer research, and growth. Positions will be listed as the team scales. Express early interest below.
             </p>
             <a
               href="mailto:careers@proapexinnovations.com"
-              className="inline-block rounded-[3px] border border-white/40 px-7 py-2.5 text-[0.8rem] font-medium uppercase tracking-[0.08em] text-white transition-all hover:bg-white hover:text-navy"
+              className="inline-block rounded-[3px] border border-white/40 px-7 py-2.5 text-[0.88rem] font-medium uppercase tracking-[0.08em] text-white transition-all hover:bg-white hover:text-navy"
             >
               Express Interest
             </a>
