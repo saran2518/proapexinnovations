@@ -21,16 +21,18 @@
 }
 
 :root {
-  --navy: #000000;
-  --navy2: #111111;
-  --slate-ink: #2b2b2b;
-  --muted-ink: #777777;
-  --line: #e5e5e5;
-  --cream: #ffffff;
-  --gold: #000000;
-  --gold2: #333333;
+  --navy: #0a0a0a;
+  --navy2: #161616;
+  --slate-ink: #3a3a3a;
+  --muted-ink: #8a8a8a;
+  --line: #e6e6e6;
+  --cream: #fafafa;
+  /* Accent: behaves as a high-contrast neutral. On light surfaces it reads near-black;
+     on dark surfaces we override locally with text-white / border-white utilities. */
+  --gold: #1a1a1a;
+  --gold2: #2e2e2e;
   --background: #ffffff;
-  --foreground: #000000;
+  --foreground: #0a0a0a;
   --nav-h: 72px;
 }
 
