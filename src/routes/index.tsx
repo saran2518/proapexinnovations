@@ -159,7 +159,7 @@ function Index() {
       {/* HERO */}
       <section
         id="hero"
-        className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-navy px-[5vw] pb-16 pt-[calc(160px+3rem)]"
+        className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-navy px-[5vw] pb-16 pt-[calc(130px+3rem)]"
       >
         <div
           className="absolute inset-0"
