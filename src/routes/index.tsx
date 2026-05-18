@@ -87,16 +87,13 @@ import proapexMark from "@/assets/proapex-mark.png";
 
 function Logo() {
   return (
-    <div className="flex items-center gap-3" aria-label="ProApex Innovations">
+    <div className="flex items-center" aria-label="ProApex Innovations">
       <img
         src={proapexMark}
-        alt=""
-        className="h-16 w-auto select-none"
+        alt="ProApex Innovations"
+        className="h-20 w-auto select-none"
         draggable={false}
       />
-      <span className="font-serif text-2xl tracking-tight text-navy">
-        ProApex Innovations
-      </span>
     </div>
   );
 }
