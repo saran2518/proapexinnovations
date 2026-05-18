@@ -271,7 +271,7 @@ function Index() {
           <div className="grid items-start gap-12 md:grid-cols-2 md:gap-28">
             <div className="rev">
               <SectionLabel>About</SectionLabel>
-              <H2 className="text-[clamp(1.3rem,2.4vw,2rem)]">
+              <H2 className="text-[clamp(1.1rem,2vw,1.6rem)]">
                 Engineered on data.<br />Deployed at <em className="not-italic font-serif italic text-gold">scale.</em>
               </H2>
               <p className="max-w-[560px] text-base font-light leading-[1.85] text-slate-ink">
