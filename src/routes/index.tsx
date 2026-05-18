@@ -84,6 +84,11 @@ const TICKER = [
 ];
 
 import proapexMark from "@/assets/proapex-mark.png";
+import techHero from "@/assets/tech-hero.jpg";
+import techData from "@/assets/tech-data.jpg";
+import techUx from "@/assets/tech-ux.jpg";
+import techProduct from "@/assets/tech-product.jpg";
+import techCareers from "@/assets/tech-careers.jpg";
 
 function Logo() {
   return (
@@ -169,6 +174,18 @@ function Index() {
             backgroundSize: "40px 40px",
           }}
         />
+        {/* Neural network visual */}
+        <div className="pointer-events-none absolute inset-y-0 right-0 hidden w-[55%] md:block">
+          <img
+            src={techHero}
+            alt=""
+            aria-hidden
+            width={1280}
+            height={1280}
+            className="h-full w-full object-cover opacity-55 [mask-image:linear-gradient(to_right,transparent,black_45%,black)]"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy/40 to-transparent" />
+        </div>
         <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-white/40 to-transparent" />
         <div className="relative z-10 max-w-[900px]">
           <div className="mb-12 flex flex-wrap items-center gap-x-3 gap-y-2">
@@ -230,6 +247,21 @@ function Index() {
               );
             })()}
           </div>
+          {/* CTA row — CX friendly */}
+          <div className="mt-14 flex flex-wrap items-center gap-4">
+            <a
+              href="#products"
+              className="inline-flex items-center gap-2 rounded-[3px] bg-gold px-7 py-3 font-mono text-[0.85rem] uppercase tracking-[0.12em] text-navy transition-all hover:bg-gold2"
+            >
+              Explore Products <span aria-hidden>→</span>
+            </a>
+            <a
+              href="#about"
+              className="inline-flex items-center gap-2 rounded-[3px] border border-white/40 px-7 py-3 font-mono text-[0.85rem] uppercase tracking-[0.12em] text-white transition-all hover:bg-white hover:text-navy"
+            >
+              Our Methodology
+            </a>
+          </div>
         </div>
       </section>
 
@@ -259,7 +291,21 @@ function Index() {
               <p className="max-w-[560px] text-base font-light leading-[1.85] text-slate-ink">
                 ProApex Innovations builds and deploys AI-first consumer applications. Every product is grounded in quantified behavioural research, engineered with precision UX methodology, and powered by AI integrated at the problem layer — not the interface layer. Built in India, architected for international markets.
               </p>
-              <div className="mt-12 border-l-[3px] border-gold bg-cream px-10 py-8">
+              <div className="relative mt-10 overflow-hidden rounded-[4px] border border-line">
+                <img
+                  src={techData}
+                  alt="Behavioural data visualization showing user journey trends"
+                  loading="lazy"
+                  width={1280}
+                  height={960}
+                  className="block h-auto w-full"
+                />
+                <div className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-navy/10 via-transparent to-transparent" />
+                <div className="absolute bottom-3 left-4 font-mono text-[0.7rem] uppercase tracking-[0.18em] text-navy/70">
+                  Live behavioural telemetry · Sample
+                </div>
+              </div>
+              <div className="mt-8 border-l-[3px] border-gold bg-cream px-10 py-8">
                 <p className="font-mono text-[0.85rem] font-normal italic leading-[1.9] text-navy/80 tracking-[0.03em]">
                   ProApex Innovations Private Limited &nbsp;·&nbsp; Incorporated in India &nbsp;·&nbsp; Operating Markets: India · United Kingdom · Europe
                 </p>
@@ -300,9 +346,21 @@ function Index() {
                 A measurable <em className="not-italic font-serif italic text-gold">output.</em>
               </H2>
             </div>
-            <p className="max-w-[560px] pt-2 text-base font-light leading-[1.85] text-slate-ink">
-              ProApex operates a repeatable product engineering methodology — from behavioural research and UX design through to AI integration and market deployment. Each discipline is applied in sequence, with measurable criteria at every stage.
-            </p>
+            <div>
+              <p className="max-w-[560px] pt-2 text-base font-light leading-[1.85] text-slate-ink">
+                ProApex operates a repeatable product engineering methodology — from behavioural research and UX design through to AI integration and market deployment. Each discipline is applied in sequence, with measurable criteria at every stage.
+              </p>
+              <div className="relative mt-8 overflow-hidden rounded-[4px] border border-line shadow-[0_20px_60px_-30px_rgba(12,74,110,0.35)]">
+                <img
+                  src={techUx}
+                  alt="Layered UX interface mockups for AI-native consumer apps"
+                  loading="lazy"
+                  width={1280}
+                  height={960}
+                  className="block h-auto w-full"
+                />
+              </div>
+            </div>
           </div>
           <div className="rev border-t border-line">
             {SERVICES.map((s) => (
@@ -349,6 +407,20 @@ function Index() {
           <div className="rev grid border border-line md:grid-cols-2">
             {/* Elyxer */}
             <div className="group border-b border-line bg-white p-10 transition-colors hover:bg-cream md:border-b-0 md:border-r md:p-14">
+              <div className="relative mb-8 aspect-[4/3] overflow-hidden rounded-[3px] bg-navy">
+                <img
+                  src={techProduct}
+                  alt="AI-native consumer application preview"
+                  loading="lazy"
+                  width={1280}
+                  height={1280}
+                  className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+                />
+                <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-navy/70 via-transparent to-transparent" />
+                <span className="absolute left-4 top-4 rounded-[2px] bg-gold/95 px-2.5 py-1 font-mono text-[0.7rem] uppercase tracking-[0.14em] text-navy">
+                  Live · In Development
+                </span>
+              </div>
               <span className="mb-6 block font-mono text-[0.72rem] uppercase tracking-[0.18em] text-gold">
                 Product 01 · Active Development
               </span>
@@ -432,8 +504,18 @@ function Index() {
       </section>
 
       {/* CAREERS */}
-      <section id="careers" className="bg-navy">
-        <div className="mx-auto max-w-[1240px] px-[5vw] py-28">
+      <section id="careers" className="relative overflow-hidden bg-navy">
+        <img
+          src={techCareers}
+          alt=""
+          aria-hidden
+          loading="lazy"
+          width={1600}
+          height={900}
+          className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-25"
+        />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-navy via-navy/85 to-navy/60" />
+        <div className="relative mx-auto max-w-[1240px] px-[5vw] py-28">
           <div className="rev">
             <div className="mb-5 flex items-center gap-2.5 font-mono text-[0.78rem] uppercase tracking-[0.18em] text-white/80">
               <span className="h-px w-6 bg-white/70" />
