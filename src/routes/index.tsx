@@ -172,27 +172,27 @@ function Index() {
             backgroundSize: "40px 40px",
           }}
         />
-        <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
+        <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-white/40 to-transparent" />
         <div className="relative z-10 max-w-[900px]">
           <div className="mb-12 flex flex-wrap items-center gap-x-3 gap-y-2">
-            <span className="h-px w-9 bg-gradient-to-r from-transparent to-gold" />
-            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] bg-gradient-to-r from-gold2 via-gold to-gold2 bg-clip-text text-transparent">
+            <span className="h-px w-9 bg-gradient-to-r from-transparent to-white/60" />
+            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] text-white/85">
               Behavioural Data
             </span>
-            <span className="text-gold/50 text-[0.7rem]">✦</span>
-            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] bg-gradient-to-r from-gold2 via-gold to-gold2 bg-clip-text text-transparent">
+            <span className="text-white/40 text-[0.7rem]">✦</span>
+            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] text-white/85">
               Precision UX
             </span>
-            <span className="text-gold/50 text-[0.7rem]">✦</span>
-            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] bg-gradient-to-r from-gold2 via-gold to-gold2 bg-clip-text text-transparent">
+            <span className="text-white/40 text-[0.7rem]">✦</span>
+            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] text-white/85">
               AI-Native Products
             </span>
-            <span className="h-px w-9 bg-gradient-to-l from-transparent to-gold" />
+            <span className="h-px w-9 bg-gradient-to-l from-transparent to-white/60" />
           </div>
           <h1 className="mb-14 font-serif text-[clamp(1.8rem,3.4vw,3rem)] font-normal leading-[1.12] text-white">
             AI-first consumer applications built on
             <br />
-            <em className="not-italic font-serif italic text-gold">one obsession — “creating real solutions”</em>
+            <em className="not-italic font-serif italic text-white/95 underline decoration-white/30 decoration-1 underline-offset-[10px]">one obsession — “creating real solutions”</em>
           </h1>
           <div className="mt-4 grid max-w-3xl grid-cols-1 gap-x-12 gap-y-5 md:grid-cols-[1fr_auto_1fr] md:items-center">
             {(() => {
