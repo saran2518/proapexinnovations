@@ -238,10 +238,10 @@ function Index() {
         <div className="ticker-track flex w-max">
           {[...TICKER, ...TICKER, ...TICKER, ...TICKER].map((t, i) => (
             <span key={i} className="flex items-center">
-              <span className="px-10 font-mono text-[0.72rem] font-normal uppercase tracking-[0.18em] text-navy/70 whitespace-nowrap">
+              <span className="px-10 font-mono text-[0.82rem] font-normal uppercase tracking-[0.18em] text-navy/80 whitespace-nowrap">
                 {t}
               </span>
-              <span className="px-2 font-mono text-[0.7rem] text-navy/30">✦</span>
+              <span className="px-2 font-mono text-[0.8rem] text-navy/45">✦</span>
             </span>
           ))}
         </div>
