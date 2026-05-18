@@ -237,14 +237,14 @@ function Index() {
       </section>
 
       {/* TICKER */}
-      <div className="overflow-hidden border-none bg-gold py-[1.2rem]">
+      <div className="overflow-hidden border-y border-line bg-cream py-[1.1rem]">
         <div className="ticker-track flex w-max">
           {[...TICKER, ...TICKER, ...TICKER, ...TICKER].map((t, i) => (
             <span key={i} className="flex items-center">
-              <span className="px-10 font-mono text-[0.72rem] font-normal uppercase tracking-[0.1em] text-navy/70 whitespace-nowrap">
+              <span className="px-10 font-mono text-[0.72rem] font-normal uppercase tracking-[0.18em] text-navy/70 whitespace-nowrap">
                 {t}
               </span>
-              <span className="px-2 font-mono text-[0.72rem] text-navy">✦</span>
+              <span className="px-2 font-mono text-[0.7rem] text-navy/30">✦</span>
             </span>
           ))}
         </div>
