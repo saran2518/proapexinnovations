@@ -512,10 +512,10 @@ function Index() {
       {/* FOOTER */}
       <footer className="border-t border-line bg-white px-[5vw] py-10">
         <div className="mx-auto flex max-w-[1240px] flex-wrap items-center justify-between gap-4">
-          <div className="font-mono text-[0.75rem] tracking-[0.06em] text-navy/70">
+          <div className="font-mono text-[0.85rem] tracking-[0.06em] text-navy/80">
             PROAPEX INNOVATIONS
           </div>
-          <div className="font-mono text-[0.65rem] tracking-[0.04em] text-muted-ink">
+          <div className="font-mono text-[0.78rem] tracking-[0.04em] text-muted-ink">
             © 2025 ProApex Innovations Private Limited. All rights reserved.
           </div>
           <nav className="flex gap-8">
@@ -526,7 +526,7 @@ function Index() {
               ["Careers", "#careers"],
               ["Contact", "#contact"],
             ].map(([l, h]) => (
-              <a key={h} href={h} className="text-[0.8rem] text-navy/55 transition-colors hover:text-navy">
+              <a key={h} href={h} className="text-[0.9rem] text-navy/70 transition-colors hover:text-navy">
                 {l}
               </a>
             ))}
