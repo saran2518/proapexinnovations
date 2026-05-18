@@ -564,9 +564,9 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
   );
 }
 
-function H2({ children }: { children: React.ReactNode }) {
+function H2({ children, className }: { children: React.ReactNode; className?: string }) {
   return (
-    <h2 className="mb-6 font-serif text-[clamp(2.2rem,4vw,3.8rem)] font-normal leading-[1.15] text-navy">
+    <h2 className={`mb-6 font-serif text-[clamp(2.2rem,4vw,3.8rem)] font-normal leading-[1.15] text-navy ${className ?? ""}`}>
       {children}
     </h2>
   );
