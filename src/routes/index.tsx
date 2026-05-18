@@ -107,6 +107,7 @@ function Logo() {
 
 function Index() {
   useEffect(() => {
+    document.documentElement.classList.add("rev-ready");
     const obs = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
@@ -119,7 +120,10 @@ function Index() {
       { threshold: 0.12 },
     );
     document.querySelectorAll(".rev").forEach((el) => obs.observe(el));
-    return () => obs.disconnect();
+    return () => {
+      obs.disconnect();
+      document.documentElement.classList.remove("rev-ready");
+    };
   }, []);
 
   return (
