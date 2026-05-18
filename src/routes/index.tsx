@@ -539,7 +539,7 @@ function Index() {
 
 function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
-    <div className="mb-5 flex items-center gap-2.5 font-mono text-[0.65rem] uppercase tracking-[0.18em] text-gold">
+    <div className="mb-5 flex items-center gap-2.5 font-mono text-[0.78rem] uppercase tracking-[0.18em] text-gold">
       <span className="h-px w-6 bg-gold" />
       {children}
     </div>
