@@ -172,7 +172,7 @@ function Index() {
           className="absolute inset-0"
           style={{
             backgroundImage:
-              "radial-gradient(circle, rgba(200,169,110,0.06) 1px, transparent 1px)",
+              "radial-gradient(circle, rgba(34,211,238,0.06) 1px, transparent 1px)",
             backgroundSize: "40px 40px",
           }}
         />
