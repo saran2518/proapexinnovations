@@ -137,7 +137,7 @@ function Index() {
             <a
               key={href}
               href={href}
-              className="text-[0.85rem] font-normal tracking-[0.02em] text-navy/60 transition-colors hover:text-navy"
+              className="text-[0.95rem] font-normal tracking-[0.02em] text-navy/75 transition-colors hover:text-navy"
             >
               {label}
             </a>
