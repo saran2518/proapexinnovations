@@ -271,7 +271,7 @@ function Index() {
           <div className="grid items-start gap-12 md:grid-cols-2 md:gap-28">
             <div className="rev">
               <SectionLabel>About</SectionLabel>
-              <H2>
+              <H2 className="text-[clamp(1.6rem,3vw,2.6rem)]">
                 Engineered on data.<br />Deployed at <em className="not-italic font-serif italic text-gold">scale.</em>
               </H2>
               <p className="max-w-[560px] text-base font-light leading-[1.85] text-slate-ink">
@@ -564,9 +564,9 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
   );
 }
 
-function H2({ children }: { children: React.ReactNode }) {
+function H2({ children, className }: { children: React.ReactNode; className?: string }) {
   return (
-    <h2 className="mb-6 font-serif text-[clamp(2.2rem,4vw,3.8rem)] font-normal leading-[1.15] text-navy">
+    <h2 className={`mb-6 font-serif text-[clamp(2.2rem,4vw,3.8rem)] font-normal leading-[1.15] text-navy ${className ?? ""}`}>
       {children}
     </h2>
   );
