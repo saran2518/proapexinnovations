@@ -504,7 +504,17 @@ function Index() {
       </section>
 
       {/* CAREERS */}
-      <section id="careers" className="bg-navy">
+      <section id="careers" className="relative overflow-hidden bg-navy">
+        <img
+          src={techCareers}
+          alt=""
+          aria-hidden
+          loading="lazy"
+          width={1600}
+          height={900}
+          className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-25"
+        />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-navy via-navy/85 to-navy/60" />
         <div className="mx-auto max-w-[1240px] px-[5vw] py-28">
           <div className="rev">
             <div className="mb-5 flex items-center gap-2.5 font-mono text-[0.78rem] uppercase tracking-[0.18em] text-white/80">
