@@ -501,7 +501,7 @@ function Index() {
               <p className="mb-7 font-serif text-[clamp(1.5rem,2.8vw,2.1rem)] font-normal italic leading-[1.45] text-navy">
                 "ProApex is in active development. Selective conversations with strategic partners and investors are open."
               </p>
-              <p className="text-[0.87rem] font-light leading-[1.85] text-slate-ink">
+              <p className="text-[0.95rem] font-light leading-[1.85] text-slate-ink">
                 If you represent a potential distribution partner, investment vehicle, or market-entry collaborator across India, UK, or Europe — reach out with a brief outline of the opportunity. All enquiries are reviewed directly by the founding team.
               </p>
             </div>
