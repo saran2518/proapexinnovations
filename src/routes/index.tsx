@@ -174,6 +174,18 @@ function Index() {
             backgroundSize: "40px 40px",
           }}
         />
+        {/* Neural network visual */}
+        <div className="pointer-events-none absolute inset-y-0 right-0 hidden w-[55%] md:block">
+          <img
+            src={techHero}
+            alt=""
+            aria-hidden
+            width={1280}
+            height={1280}
+            className="h-full w-full object-cover opacity-55 [mask-image:linear-gradient(to_right,transparent,black_45%,black)]"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy/40 to-transparent" />
+        </div>
         <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-white/40 to-transparent" />
         <div className="relative z-10 max-w-[900px]">
           <div className="mb-12 flex flex-wrap items-center gap-x-3 gap-y-2">
@@ -234,6 +246,21 @@ function Index() {
                 </>
               );
             })()}
+          </div>
+          {/* CTA row — CX friendly */}
+          <div className="mt-14 flex flex-wrap items-center gap-4">
+            <a
+              href="#products"
+              className="inline-flex items-center gap-2 rounded-[3px] bg-gold px-7 py-3 font-mono text-[0.85rem] uppercase tracking-[0.12em] text-navy transition-all hover:bg-gold2"
+            >
+              Explore Products <span aria-hidden>→</span>
+            </a>
+            <a
+              href="#about"
+              className="inline-flex items-center gap-2 rounded-[3px] border border-white/40 px-7 py-3 font-mono text-[0.85rem] uppercase tracking-[0.12em] text-white transition-all hover:bg-white hover:text-navy"
+            >
+              Our Methodology
+            </a>
           </div>
         </div>
       </section>
