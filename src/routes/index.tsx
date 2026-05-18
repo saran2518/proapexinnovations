@@ -382,16 +382,16 @@ function Index() {
             </div>
             {/* Future */}
             <div className="bg-white p-10 opacity-60 md:p-14">
-              <span className="mb-6 block font-mono text-[0.6rem] uppercase tracking-[0.18em] text-gold">
+              <span className="mb-6 block font-mono text-[0.72rem] uppercase tracking-[0.18em] text-gold">
                 Product 02 · Pipeline
               </span>
               <div className="mb-2 font-serif text-[2.2rem] font-normal leading-none text-muted-ink">
                 Undisclosed
               </div>
-              <div className="mb-6 font-mono text-[0.72rem] uppercase tracking-[0.06em] text-muted-ink">
+              <div className="mb-6 font-mono text-[0.8rem] uppercase tracking-[0.06em] text-muted-ink">
                 Next ProApex Product
               </div>
-              <p className="mb-8 max-w-[360px] text-[0.87rem] font-light leading-[1.85] text-slate-ink">
+              <p className="mb-8 max-w-[360px] text-[0.95rem] font-light leading-[1.85] text-slate-ink">
                 The next ProApex product is currently in the research and behavioural analysis phase. Market, category, and product details will be disclosed at the appropriate stage of development.
               </p>
               <div className="flex flex-col gap-3 border-t border-line pt-6">
@@ -400,14 +400,14 @@ function Index() {
                   ["Disclosure", "TBA"],
                 ].map(([k, v]) => (
                   <div key={k} className="flex items-center justify-between">
-                    <span className="font-mono text-[0.62rem] uppercase tracking-[0.1em] text-muted-ink">
+                    <span className="font-mono text-[0.75rem] uppercase tracking-[0.1em] text-muted-ink">
                       {k}
                     </span>
-                    <span className="font-mono text-[0.7rem] text-navy">{v}</span>
+                    <span className="font-mono text-[0.82rem] text-navy">{v}</span>
                   </div>
                 ))}
               </div>
-              <span className="mt-6 inline-block rounded-[2px] border border-line px-2.5 py-1 font-mono text-[0.6rem] uppercase tracking-[0.12em] text-muted-ink">
+              <span className="mt-6 inline-block rounded-[2px] border border-line px-2.5 py-1 font-mono text-[0.72rem] uppercase tracking-[0.12em] text-muted-ink">
                 Coming
               </span>
             </div>
