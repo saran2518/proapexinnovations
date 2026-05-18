@@ -438,30 +438,30 @@ function Index() {
       <section id="careers" className="bg-navy">
         <div className="mx-auto max-w-[1240px] px-[5vw] py-28">
           <div className="rev">
-            <div className="mb-5 flex items-center gap-2.5 font-mono text-[0.65rem] uppercase tracking-[0.18em] text-gold">
-              <span className="h-px w-6 bg-gold" />
+            <div className="mb-5 flex items-center gap-2.5 font-mono text-[0.65rem] uppercase tracking-[0.18em] text-white/70">
+              <span className="h-px w-6 bg-white/70" />
               Careers
             </div>
             <h2 className="mb-6 font-serif text-[clamp(2.2rem,4vw,3.8rem)] font-normal leading-[1.15] text-white">
-              Engineers, designers,<br />researchers — <em className="not-italic font-serif italic text-gold">apply.</em>
+              Engineers, designers,<br />researchers — <em className="not-italic font-serif italic text-white/90 underline decoration-white/30 decoration-1 underline-offset-[10px]">apply.</em>
             </h2>
-            <p className="mb-16 max-w-[520px] text-base font-light leading-[1.85] text-white/45">
+            <p className="mb-16 max-w-[520px] text-base font-light leading-[1.85] text-white/65">
               ProApex is building a focused team of product engineers, UX specialists, AI researchers, and consumer behaviour analysts. Candidates who want to build products that ship, scale, and perform in global markets.
             </p>
           </div>
-          <div className="rev rounded border border-gold/25 px-8 py-16 text-center md:px-20 md:py-24">
-            <span className="mb-6 block font-mono text-[0.65rem] uppercase tracking-[0.2em] text-gold/40">
+          <div className="rev rounded border border-white/20 px-8 py-16 text-center md:px-20 md:py-24">
+            <span className="mb-6 block font-mono text-[0.65rem] uppercase tracking-[0.2em] text-white/55">
               Positions Opening
             </span>
-            <div className="mb-3 font-serif text-[1.75rem] font-normal text-white/65">
+            <div className="mb-3 font-serif text-[1.75rem] font-normal text-white/90">
               Roles across all disciplines
             </div>
-            <p className="mx-auto mb-8 max-w-[400px] text-[0.87rem] font-light leading-[1.8] text-white/30">
+            <p className="mx-auto mb-8 max-w-[400px] text-[0.87rem] font-light leading-[1.8] text-white/55">
               Product engineering, UX design, AI/ML, consumer research, and growth. Positions will be listed as the team scales. Express early interest below.
             </p>
             <a
               href="mailto:careers@proapexinnovations.com"
-              className="inline-block rounded-[3px] border border-gold/35 px-7 py-2.5 text-[0.8rem] font-medium uppercase tracking-[0.08em] text-gold transition-all hover:bg-gold hover:text-navy"
+              className="inline-block rounded-[3px] border border-white/40 px-7 py-2.5 text-[0.8rem] font-medium uppercase tracking-[0.08em] text-white transition-all hover:bg-white hover:text-navy"
             >
               Express Interest
             </a>
