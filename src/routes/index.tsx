@@ -487,10 +487,10 @@ function Index() {
                     key={i}
                     className="flex flex-col items-start justify-between gap-1 border-b border-line py-6 sm:flex-row sm:items-baseline sm:gap-8"
                   >
-                    <span className="shrink-0 font-mono text-[0.65rem] uppercase tracking-[0.12em] text-muted-ink">
+                    <span className="shrink-0 font-mono text-[0.78rem] uppercase tracking-[0.12em] text-muted-ink">
                       {lbl}
                     </span>
-                    <span className="text-left text-[0.92rem] text-navy sm:text-right">
+                    <span className="text-left text-[1rem] text-navy sm:text-right">
                       {val}
                     </span>
                   </div>
