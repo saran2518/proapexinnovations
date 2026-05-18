@@ -435,7 +435,7 @@ function Index() {
       <section id="careers" className="bg-navy">
         <div className="mx-auto max-w-[1240px] px-[5vw] py-28">
           <div className="rev">
-            <div className="mb-5 flex items-center gap-2.5 font-mono text-[0.65rem] uppercase tracking-[0.18em] text-white/70">
+            <div className="mb-5 flex items-center gap-2.5 font-mono text-[0.78rem] uppercase tracking-[0.18em] text-white/80">
               <span className="h-px w-6 bg-white/70" />
               Careers
             </div>
