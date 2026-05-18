@@ -125,7 +125,7 @@ function Index() {
   return (
     <div>
       {/* NAV */}
-      <nav className="fixed inset-x-0 top-0 z-[200] flex h-[72px] items-center justify-between bg-navy pl-4 pr-[5vw]">
+      <nav className="fixed inset-x-0 top-0 z-[200] flex h-[72px] items-center justify-between border-b border-line bg-white pl-4 pr-[5vw]">
         <a href="#hero" className="flex shrink-0 items-center">
           <Logo />
         </a>
@@ -140,7 +140,7 @@ function Index() {
             <a
               key={href}
               href={href}
-              className="text-[0.85rem] font-normal tracking-[0.02em] text-white/60 transition-colors hover:text-white"
+              className="text-[0.85rem] font-normal tracking-[0.02em] text-navy/60 transition-colors hover:text-navy"
             >
               {label}
             </a>
@@ -148,14 +148,14 @@ function Index() {
         </div>
         <a
           href="#contact"
-          className="hidden whitespace-nowrap rounded-[3px] border border-gold px-[22px] py-[9px] text-[0.82rem] font-medium tracking-[0.04em] text-gold transition-all hover:bg-gold hover:text-navy md:inline-block"
+          className="hidden whitespace-nowrap rounded-[3px] border border-navy px-[22px] py-[9px] text-[0.82rem] font-medium tracking-[0.04em] text-navy transition-all hover:bg-navy hover:text-white md:inline-block"
         >
           Get in Touch
         </a>
         <div className="flex cursor-pointer flex-col gap-[5px] md:hidden">
-          <span className="block h-[1.5px] w-[22px] bg-white" />
-          <span className="block h-[1.5px] w-[22px] bg-white" />
-          <span className="block h-[1.5px] w-[22px] bg-white" />
+          <span className="block h-[1.5px] w-[22px] bg-navy" />
+          <span className="block h-[1.5px] w-[22px] bg-navy" />
+          <span className="block h-[1.5px] w-[22px] bg-navy" />
         </div>
       </nav>
 
