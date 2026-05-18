@@ -349,16 +349,16 @@ function Index() {
           <div className="rev grid border border-line md:grid-cols-2">
             {/* Elyxer */}
             <div className="group border-b border-line bg-white p-10 transition-colors hover:bg-cream md:border-b-0 md:border-r md:p-14">
-              <span className="mb-6 block font-mono text-[0.6rem] uppercase tracking-[0.18em] text-gold">
+              <span className="mb-6 block font-mono text-[0.72rem] uppercase tracking-[0.18em] text-gold">
                 Product 01 · Active Development
               </span>
               <div className="mb-2 font-serif text-[2.2rem] font-normal leading-none text-muted-ink">
                 Undisclosed
               </div>
-              <div className="mb-6 font-mono text-[0.72rem] uppercase tracking-[0.06em] text-muted-ink">
+              <div className="mb-6 font-mono text-[0.8rem] uppercase tracking-[0.06em] text-muted-ink">
                 AI-Native Consumer Application
               </div>
-              <p className="mb-8 max-w-[360px] text-[0.87rem] font-light leading-[1.85] text-slate-ink">
+              <p className="mb-8 max-w-[360px] text-[0.95rem] font-light leading-[1.85] text-slate-ink">
                 The first ProApex consumer application — an AI-native product engineered around precision UX and deep behavioural intelligence. Designed for the way users actually interact, not the way interfaces traditionally assume they do.
               </p>
               <div className="flex flex-col gap-3 border-t border-line pt-6">
@@ -369,14 +369,14 @@ function Index() {
                   ["Architecture", "AI-Native · Mobile-First"],
                 ].map(([k, v]) => (
                   <div key={k} className="flex items-center justify-between">
-                    <span className="font-mono text-[0.62rem] uppercase tracking-[0.1em] text-muted-ink">
+                    <span className="font-mono text-[0.75rem] uppercase tracking-[0.1em] text-muted-ink">
                       {k}
                     </span>
-                    <span className="font-mono text-[0.7rem] text-navy">{v}</span>
+                    <span className="font-mono text-[0.82rem] text-navy">{v}</span>
                   </div>
                 ))}
               </div>
-              <span className="mt-6 inline-block rounded-[2px] border border-gold/40 px-2.5 py-1 font-mono text-[0.6rem] uppercase tracking-[0.12em] text-gold">
+              <span className="mt-6 inline-block rounded-[2px] border border-gold/40 px-2.5 py-1 font-mono text-[0.72rem] uppercase tracking-[0.12em] text-gold">
                 In Development
               </span>
             </div>
