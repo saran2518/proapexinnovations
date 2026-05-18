@@ -260,7 +260,7 @@ function Index() {
                 ProApex Innovations builds and deploys AI-first consumer applications. Every product is grounded in quantified behavioural research, engineered with precision UX methodology, and powered by AI integrated at the problem layer — not the interface layer. Built in India, architected for international markets.
               </p>
               <div className="mt-12 border-l-[3px] border-gold bg-cream px-10 py-8">
-                <p className="font-mono text-[0.78rem] font-normal italic leading-[1.9] text-navy/75 tracking-[0.03em]">
+                <p className="font-mono text-[0.85rem] font-normal italic leading-[1.9] text-navy/80 tracking-[0.03em]">
                   ProApex Innovations Private Limited &nbsp;·&nbsp; Incorporated in India &nbsp;·&nbsp; Operating Markets: India · United Kingdom · Europe
                 </p>
               </div>
