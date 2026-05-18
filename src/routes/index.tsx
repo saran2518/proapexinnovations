@@ -310,14 +310,14 @@ function Index() {
                 key={s.n}
                 className="group grid grid-cols-[40px_1fr_28px] items-center gap-6 border-b border-line py-8 transition-colors hover:bg-gold/5 md:grid-cols-[60px_1fr_28px] md:gap-8"
               >
-                <span className="font-mono text-[0.65rem] tracking-[0.06em] text-muted-ink">
+                <span className="font-mono text-[0.78rem] tracking-[0.06em] text-muted-ink">
                   {s.n}
                 </span>
                 <div>
-                  <div className="mb-1.5 text-[1.05rem] font-semibold uppercase tracking-[0.03em] text-navy transition-colors group-hover:text-gold">
+                  <div className="mb-1.5 text-[1.1rem] font-semibold uppercase tracking-[0.03em] text-navy transition-colors group-hover:text-gold">
                     {s.t}
                   </div>
-                  <div className="max-w-[580px] text-[0.87rem] font-light leading-[1.8] text-slate-ink">
+                  <div className="max-w-[580px] text-[0.95rem] font-light leading-[1.8] text-slate-ink">
                     {s.d}
                   </div>
                 </div>
