@@ -515,7 +515,7 @@ function Index() {
           className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-25"
         />
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-navy via-navy/85 to-navy/60" />
-        <div className="mx-auto max-w-[1240px] px-[5vw] py-28">
+        <div className="relative mx-auto max-w-[1240px] px-[5vw] py-28">
           <div className="rev">
             <div className="mb-5 flex items-center gap-2.5 font-mono text-[0.78rem] uppercase tracking-[0.18em] text-white/80">
               <span className="h-px w-6 bg-white/70" />
