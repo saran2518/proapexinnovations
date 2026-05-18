@@ -137,7 +137,7 @@ function Index() {
             <a
               key={href}
               href={href}
-              className="text-[0.85rem] font-normal tracking-[0.02em] text-navy/60 transition-colors hover:text-navy"
+              className="text-[0.95rem] font-normal tracking-[0.02em] text-navy/75 transition-colors hover:text-navy"
             >
               {label}
             </a>
@@ -145,7 +145,7 @@ function Index() {
         </div>
         <a
           href="#contact"
-          className="hidden whitespace-nowrap rounded-[3px] border border-navy px-[22px] py-[9px] text-[0.82rem] font-medium tracking-[0.04em] text-navy transition-all hover:bg-navy hover:text-white md:inline-block"
+          className="hidden whitespace-nowrap rounded-[3px] border border-navy px-[22px] py-[9px] text-[0.9rem] font-medium tracking-[0.04em] text-navy transition-all hover:bg-navy hover:text-white md:inline-block"
         >
           Get in Touch
         </a>
@@ -238,10 +238,10 @@ function Index() {
         <div className="ticker-track flex w-max">
           {[...TICKER, ...TICKER, ...TICKER, ...TICKER].map((t, i) => (
             <span key={i} className="flex items-center">
-              <span className="px-10 font-mono text-[0.72rem] font-normal uppercase tracking-[0.18em] text-navy/70 whitespace-nowrap">
+              <span className="px-10 font-mono text-[0.82rem] font-normal uppercase tracking-[0.18em] text-navy/80 whitespace-nowrap">
                 {t}
               </span>
-              <span className="px-2 font-mono text-[0.7rem] text-navy/30">✦</span>
+              <span className="px-2 font-mono text-[0.8rem] text-navy/45">✦</span>
             </span>
           ))}
         </div>
@@ -260,7 +260,7 @@ function Index() {
                 ProApex Innovations builds and deploys AI-first consumer applications. Every product is grounded in quantified behavioural research, engineered with precision UX methodology, and powered by AI integrated at the problem layer — not the interface layer. Built in India, architected for international markets.
               </p>
               <div className="mt-12 border-l-[3px] border-gold bg-cream px-10 py-8">
-                <p className="font-mono text-[0.78rem] font-normal italic leading-[1.9] text-navy/75 tracking-[0.03em]">
+                <p className="font-mono text-[0.85rem] font-normal italic leading-[1.9] text-navy/80 tracking-[0.03em]">
                   ProApex Innovations Private Limited &nbsp;·&nbsp; Incorporated in India &nbsp;·&nbsp; Operating Markets: India · United Kingdom · Europe
                 </p>
               </div>
@@ -268,14 +268,14 @@ function Index() {
             <div className="rev mt-2 border-t border-line">
               {PILLARS.map((p) => (
                 <div key={p.n} className="flex gap-8 border-b border-line py-7">
-                  <span className="shrink-0 pt-1 font-mono text-[0.65rem] tracking-[0.06em] text-gold">
+                  <span className="shrink-0 pt-1 font-mono text-[0.78rem] tracking-[0.06em] text-gold">
                     {p.n}
                   </span>
                   <div>
-                    <div className="mb-1.5 text-[0.95rem] font-semibold uppercase tracking-[0.02em] text-navy">
+                    <div className="mb-1.5 text-[1rem] font-semibold uppercase tracking-[0.02em] text-navy">
                       {p.t}
                     </div>
-                    <div className="text-[0.87rem] font-light leading-[1.75] text-slate-ink">
+                    <div className="text-[0.95rem] font-light leading-[1.75] text-slate-ink">
                       {p.d}
                     </div>
                   </div>
@@ -310,14 +310,14 @@ function Index() {
                 key={s.n}
                 className="group grid grid-cols-[40px_1fr_28px] items-center gap-6 border-b border-line py-8 transition-colors hover:bg-gold/5 md:grid-cols-[60px_1fr_28px] md:gap-8"
               >
-                <span className="font-mono text-[0.65rem] tracking-[0.06em] text-muted-ink">
+                <span className="font-mono text-[0.78rem] tracking-[0.06em] text-muted-ink">
                   {s.n}
                 </span>
                 <div>
-                  <div className="mb-1.5 text-[1.05rem] font-semibold uppercase tracking-[0.03em] text-navy transition-colors group-hover:text-gold">
+                  <div className="mb-1.5 text-[1.1rem] font-semibold uppercase tracking-[0.03em] text-navy transition-colors group-hover:text-gold">
                     {s.t}
                   </div>
-                  <div className="max-w-[580px] text-[0.87rem] font-light leading-[1.8] text-slate-ink">
+                  <div className="max-w-[580px] text-[0.95rem] font-light leading-[1.8] text-slate-ink">
                     {s.d}
                   </div>
                 </div>
@@ -349,16 +349,16 @@ function Index() {
           <div className="rev grid border border-line md:grid-cols-2">
             {/* Elyxer */}
             <div className="group border-b border-line bg-white p-10 transition-colors hover:bg-cream md:border-b-0 md:border-r md:p-14">
-              <span className="mb-6 block font-mono text-[0.6rem] uppercase tracking-[0.18em] text-gold">
+              <span className="mb-6 block font-mono text-[0.72rem] uppercase tracking-[0.18em] text-gold">
                 Product 01 · Active Development
               </span>
               <div className="mb-2 font-serif text-[2.2rem] font-normal leading-none text-muted-ink">
                 Undisclosed
               </div>
-              <div className="mb-6 font-mono text-[0.72rem] uppercase tracking-[0.06em] text-muted-ink">
+              <div className="mb-6 font-mono text-[0.8rem] uppercase tracking-[0.06em] text-muted-ink">
                 AI-Native Consumer Application
               </div>
-              <p className="mb-8 max-w-[360px] text-[0.87rem] font-light leading-[1.85] text-slate-ink">
+              <p className="mb-8 max-w-[360px] text-[0.95rem] font-light leading-[1.85] text-slate-ink">
                 The first ProApex consumer application — an AI-native product engineered around precision UX and deep behavioural intelligence. Designed for the way users actually interact, not the way interfaces traditionally assume they do.
               </p>
               <div className="flex flex-col gap-3 border-t border-line pt-6">
@@ -369,29 +369,29 @@ function Index() {
                   ["Architecture", "AI-Native · Mobile-First"],
                 ].map(([k, v]) => (
                   <div key={k} className="flex items-center justify-between">
-                    <span className="font-mono text-[0.62rem] uppercase tracking-[0.1em] text-muted-ink">
+                    <span className="font-mono text-[0.75rem] uppercase tracking-[0.1em] text-muted-ink">
                       {k}
                     </span>
-                    <span className="font-mono text-[0.7rem] text-navy">{v}</span>
+                    <span className="font-mono text-[0.82rem] text-navy">{v}</span>
                   </div>
                 ))}
               </div>
-              <span className="mt-6 inline-block rounded-[2px] border border-gold/40 px-2.5 py-1 font-mono text-[0.6rem] uppercase tracking-[0.12em] text-gold">
+              <span className="mt-6 inline-block rounded-[2px] border border-gold/40 px-2.5 py-1 font-mono text-[0.72rem] uppercase tracking-[0.12em] text-gold">
                 In Development
               </span>
             </div>
             {/* Future */}
             <div className="bg-white p-10 opacity-60 md:p-14">
-              <span className="mb-6 block font-mono text-[0.6rem] uppercase tracking-[0.18em] text-gold">
+              <span className="mb-6 block font-mono text-[0.72rem] uppercase tracking-[0.18em] text-gold">
                 Product 02 · Pipeline
               </span>
               <div className="mb-2 font-serif text-[2.2rem] font-normal leading-none text-muted-ink">
                 Undisclosed
               </div>
-              <div className="mb-6 font-mono text-[0.72rem] uppercase tracking-[0.06em] text-muted-ink">
+              <div className="mb-6 font-mono text-[0.8rem] uppercase tracking-[0.06em] text-muted-ink">
                 Next ProApex Product
               </div>
-              <p className="mb-8 max-w-[360px] text-[0.87rem] font-light leading-[1.85] text-slate-ink">
+              <p className="mb-8 max-w-[360px] text-[0.95rem] font-light leading-[1.85] text-slate-ink">
                 The next ProApex product is currently in the research and behavioural analysis phase. Market, category, and product details will be disclosed at the appropriate stage of development.
               </p>
               <div className="flex flex-col gap-3 border-t border-line pt-6">
@@ -400,30 +400,30 @@ function Index() {
                   ["Disclosure", "TBA"],
                 ].map(([k, v]) => (
                   <div key={k} className="flex items-center justify-between">
-                    <span className="font-mono text-[0.62rem] uppercase tracking-[0.1em] text-muted-ink">
+                    <span className="font-mono text-[0.75rem] uppercase tracking-[0.1em] text-muted-ink">
                       {k}
                     </span>
-                    <span className="font-mono text-[0.7rem] text-navy">{v}</span>
+                    <span className="font-mono text-[0.82rem] text-navy">{v}</span>
                   </div>
                 ))}
               </div>
-              <span className="mt-6 inline-block rounded-[2px] border border-line px-2.5 py-1 font-mono text-[0.6rem] uppercase tracking-[0.12em] text-muted-ink">
+              <span className="mt-6 inline-block rounded-[2px] border border-line px-2.5 py-1 font-mono text-[0.72rem] uppercase tracking-[0.12em] text-muted-ink">
                 Coming
               </span>
             </div>
           </div>
           <div className="rev mt-16 flex flex-col items-start justify-between gap-6 border-t border-line pt-10 md:flex-row md:items-center">
             <div>
-              <div className="mb-2 font-mono text-[0.65rem] uppercase tracking-[0.18em] text-gold">
+              <div className="mb-2 font-mono text-[0.75rem] uppercase tracking-[0.18em] text-gold">
                 For Investors & Partners
               </div>
-              <p className="max-w-[520px] text-[0.92rem] font-light leading-[1.7] text-slate-ink">
+              <p className="max-w-[520px] text-[1rem] font-light leading-[1.7] text-slate-ink">
                 Selective conversations open with strategic partners and investors aligned with the ProApex thesis.
               </p>
             </div>
             <a
               href="#contact"
-              className="inline-block whitespace-nowrap rounded-[3px] border border-navy bg-navy px-7 py-3 font-mono text-[0.75rem] uppercase tracking-[0.12em] text-white transition-all hover:bg-white hover:text-navy"
+              className="inline-block whitespace-nowrap rounded-[3px] border border-navy bg-navy px-7 py-3 font-mono text-[0.85rem] uppercase tracking-[0.12em] text-white transition-all hover:bg-white hover:text-navy"
             >
               Get in Touch
             </a>
@@ -435,7 +435,7 @@ function Index() {
       <section id="careers" className="bg-navy">
         <div className="mx-auto max-w-[1240px] px-[5vw] py-28">
           <div className="rev">
-            <div className="mb-5 flex items-center gap-2.5 font-mono text-[0.65rem] uppercase tracking-[0.18em] text-white/70">
+            <div className="mb-5 flex items-center gap-2.5 font-mono text-[0.78rem] uppercase tracking-[0.18em] text-white/80">
               <span className="h-px w-6 bg-white/70" />
               Careers
             </div>
@@ -447,18 +447,18 @@ function Index() {
             </p>
           </div>
           <div className="rev rounded border border-white/20 px-8 py-16 text-center md:px-20 md:py-24">
-            <span className="mb-6 block font-mono text-[0.65rem] uppercase tracking-[0.2em] text-white/55">
+            <span className="mb-6 block font-mono text-[0.78rem] uppercase tracking-[0.2em] text-white/70">
               Positions Opening
             </span>
-            <div className="mb-3 font-serif text-[1.75rem] font-normal text-white/90">
+            <div className="mb-3 font-serif text-[1.75rem] font-normal text-white/95">
               Roles across all disciplines
             </div>
-            <p className="mx-auto mb-8 max-w-[400px] text-[0.87rem] font-light leading-[1.8] text-white/55">
+            <p className="mx-auto mb-8 max-w-[400px] text-[0.95rem] font-light leading-[1.8] text-white/70">
               Product engineering, UX design, AI/ML, consumer research, and growth. Positions will be listed as the team scales. Express early interest below.
             </p>
             <a
               href="mailto:careers@proapexinnovations.com"
-              className="inline-block rounded-[3px] border border-white/40 px-7 py-2.5 text-[0.8rem] font-medium uppercase tracking-[0.08em] text-white transition-all hover:bg-white hover:text-navy"
+              className="inline-block rounded-[3px] border border-white/40 px-7 py-2.5 text-[0.88rem] font-medium uppercase tracking-[0.08em] text-white transition-all hover:bg-white hover:text-navy"
             >
               Express Interest
             </a>
@@ -487,10 +487,10 @@ function Index() {
                     key={i}
                     className="flex flex-col items-start justify-between gap-1 border-b border-line py-6 sm:flex-row sm:items-baseline sm:gap-8"
                   >
-                    <span className="shrink-0 font-mono text-[0.65rem] uppercase tracking-[0.12em] text-muted-ink">
+                    <span className="shrink-0 font-mono text-[0.78rem] uppercase tracking-[0.12em] text-muted-ink">
                       {lbl}
                     </span>
-                    <span className="text-left text-[0.92rem] text-navy sm:text-right">
+                    <span className="text-left text-[1rem] text-navy sm:text-right">
                       {val}
                     </span>
                   </div>
@@ -501,7 +501,7 @@ function Index() {
               <p className="mb-7 font-serif text-[clamp(1.5rem,2.8vw,2.1rem)] font-normal italic leading-[1.45] text-navy">
                 "ProApex is in active development. Selective conversations with strategic partners and investors are open."
               </p>
-              <p className="text-[0.87rem] font-light leading-[1.85] text-slate-ink">
+              <p className="text-[0.95rem] font-light leading-[1.85] text-slate-ink">
                 If you represent a potential distribution partner, investment vehicle, or market-entry collaborator across India, UK, or Europe — reach out with a brief outline of the opportunity. All enquiries are reviewed directly by the founding team.
               </p>
             </div>
@@ -512,10 +512,10 @@ function Index() {
       {/* FOOTER */}
       <footer className="border-t border-line bg-white px-[5vw] py-10">
         <div className="mx-auto flex max-w-[1240px] flex-wrap items-center justify-between gap-4">
-          <div className="font-mono text-[0.75rem] tracking-[0.06em] text-navy/70">
+          <div className="font-mono text-[0.85rem] tracking-[0.06em] text-navy/80">
             PROAPEX INNOVATIONS
           </div>
-          <div className="font-mono text-[0.65rem] tracking-[0.04em] text-muted-ink">
+          <div className="font-mono text-[0.78rem] tracking-[0.04em] text-muted-ink">
             © 2025 ProApex Innovations Private Limited. All rights reserved.
           </div>
           <nav className="flex gap-8">
@@ -526,7 +526,7 @@ function Index() {
               ["Careers", "#careers"],
               ["Contact", "#contact"],
             ].map(([l, h]) => (
-              <a key={h} href={h} className="text-[0.8rem] text-navy/55 transition-colors hover:text-navy">
+              <a key={h} href={h} className="text-[0.9rem] text-navy/70 transition-colors hover:text-navy">
                 {l}
               </a>
             ))}
@@ -539,7 +539,7 @@ function Index() {
 
 function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
-    <div className="mb-5 flex items-center gap-2.5 font-mono text-[0.65rem] uppercase tracking-[0.18em] text-gold">
+    <div className="mb-5 flex items-center gap-2.5 font-mono text-[0.78rem] uppercase tracking-[0.18em] text-gold">
       <span className="h-px w-6 bg-gold" />
       {children}
     </div>
