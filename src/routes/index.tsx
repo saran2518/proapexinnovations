@@ -91,7 +91,7 @@ function Logo() {
       <img
         src={proapexMark}
         alt="ProApex Innovations"
-        className="h-[150px] w-auto select-none -my-4"
+        className="h-[160px] w-auto select-none -my-6"
         draggable={false}
       />
     </div>
