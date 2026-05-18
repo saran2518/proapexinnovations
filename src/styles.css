@@ -21,16 +21,17 @@
 }
 
 :root {
-  --navy: #0c4a6e;
-  --navy2: #0e5a82;
-  --slate-ink: #3a6b82;
-  --muted-ink: #6b8fa3;
-  --line: #c4eef5;
-  --cream: #ecfeff;
-  --gold: #0891b2;
-  --gold2: #22d3ee;
+  /* Two-palette system: white + light blue */
+  --navy: #0369a1;        /* darker light-blue for readable text */
+  --navy2: #0284c7;
+  --slate-ink: #0369a1;
+  --muted-ink: #38bdf8;   /* light blue */
+  --line: #e0f2fe;        /* very light blue */
+  --cream: #ffffff;       /* white */
+  --gold: #38bdf8;        /* light blue accent */
+  --gold2: #7dd3fc;
   --background: #ffffff;
-  --foreground: #0c4a6e;
+  --foreground: #0369a1;
   --nav-h: 130px;
 }
 
