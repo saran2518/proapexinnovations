@@ -84,6 +84,11 @@ const TICKER = [
 ];
 
 import proapexMark from "@/assets/proapex-mark.png";
+import techHero from "@/assets/tech-hero.jpg";
+import techData from "@/assets/tech-data.jpg";
+import techUx from "@/assets/tech-ux.jpg";
+import techProduct from "@/assets/tech-product.jpg";
+import techCareers from "@/assets/tech-careers.jpg";
 
 function Logo() {
   return (
