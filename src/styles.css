@@ -21,16 +21,16 @@
 }
 
 :root {
-  --navy: #0f172a;
-  --navy2: #1e293b;
-  --slate-ink: #475569;
-  --muted-ink: #94a3b8;
-  --line: #e8ecf1;
-  --cream: #fafbfc;
-  --gold: #3b82f6;
-  --gold2: #60a5fa;
-  --background: #fafbfc;
-  --foreground: #0f172a;
+  --navy: #000000;
+  --navy2: #111111;
+  --slate-ink: #2b2b2b;
+  --muted-ink: #777777;
+  --line: #e5e5e5;
+  --cream: #ffffff;
+  --gold: #000000;
+  --gold2: #333333;
+  --background: #ffffff;
+  --foreground: #000000;
   --nav-h: 72px;
 }
 
