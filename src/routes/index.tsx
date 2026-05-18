@@ -426,7 +426,7 @@ function Index() {
             </div>
             <a
               href="#contact"
-              className="inline-block whitespace-nowrap rounded-[3px] border border-navy bg-navy px-7 py-3 font-mono text-[0.75rem] uppercase tracking-[0.12em] text-gold transition-all hover:bg-gold hover:text-navy"
+              className="inline-block whitespace-nowrap rounded-[3px] border border-navy bg-navy px-7 py-3 font-mono text-[0.75rem] uppercase tracking-[0.12em] text-white transition-all hover:bg-white hover:text-navy"
             >
               Get in Touch
             </a>
