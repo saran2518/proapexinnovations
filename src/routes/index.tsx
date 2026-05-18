@@ -125,7 +125,7 @@ function Index() {
   return (
     <div>
       {/* NAV */}
-      <nav className="fixed inset-x-0 top-0 z-[200] flex h-[72px] items-center justify-between bg-navy pl-4 pr-[5vw]">
+      <nav className="fixed inset-x-0 top-0 z-[200] flex h-[72px] items-center justify-between border-b border-line bg-white pl-4 pr-[5vw]">
         <a href="#hero" className="flex shrink-0 items-center">
           <Logo />
         </a>
@@ -140,7 +140,7 @@ function Index() {
             <a
               key={href}
               href={href}
-              className="text-[0.85rem] font-normal tracking-[0.02em] text-white/60 transition-colors hover:text-white"
+              className="text-[0.85rem] font-normal tracking-[0.02em] text-navy/60 transition-colors hover:text-navy"
             >
               {label}
             </a>
@@ -148,14 +148,14 @@ function Index() {
         </div>
         <a
           href="#contact"
-          className="hidden whitespace-nowrap rounded-[3px] border border-gold px-[22px] py-[9px] text-[0.82rem] font-medium tracking-[0.04em] text-gold transition-all hover:bg-gold hover:text-navy md:inline-block"
+          className="hidden whitespace-nowrap rounded-[3px] border border-navy px-[22px] py-[9px] text-[0.82rem] font-medium tracking-[0.04em] text-navy transition-all hover:bg-navy hover:text-white md:inline-block"
         >
           Get in Touch
         </a>
         <div className="flex cursor-pointer flex-col gap-[5px] md:hidden">
-          <span className="block h-[1.5px] w-[22px] bg-white" />
-          <span className="block h-[1.5px] w-[22px] bg-white" />
-          <span className="block h-[1.5px] w-[22px] bg-white" />
+          <span className="block h-[1.5px] w-[22px] bg-navy" />
+          <span className="block h-[1.5px] w-[22px] bg-navy" />
+          <span className="block h-[1.5px] w-[22px] bg-navy" />
         </div>
       </nav>
 
@@ -513,12 +513,12 @@ function Index() {
       </section>
 
       {/* FOOTER */}
-      <footer className="bg-navy px-[5vw] py-10">
+      <footer className="border-t border-line bg-white px-[5vw] py-10">
         <div className="mx-auto flex max-w-[1240px] flex-wrap items-center justify-between gap-4">
-          <div className="font-mono text-[0.75rem] tracking-[0.06em] text-white/35">
+          <div className="font-mono text-[0.75rem] tracking-[0.06em] text-navy/70">
             PROAPEX INNOVATIONS
           </div>
-          <div className="font-mono text-[0.65rem] tracking-[0.04em] text-white/25">
+          <div className="font-mono text-[0.65rem] tracking-[0.04em] text-muted-ink">
             © 2025 ProApex Innovations Private Limited. All rights reserved.
           </div>
           <nav className="flex gap-8">
@@ -529,7 +529,7 @@ function Index() {
               ["Careers", "#careers"],
               ["Contact", "#contact"],
             ].map(([l, h]) => (
-              <a key={h} href={h} className="text-[0.8rem] text-white/35 transition-colors hover:text-gold">
+              <a key={h} href={h} className="text-[0.8rem] text-navy/55 transition-colors hover:text-navy">
                 {l}
               </a>
             ))}
