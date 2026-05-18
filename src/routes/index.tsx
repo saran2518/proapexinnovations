@@ -407,6 +407,20 @@ function Index() {
           <div className="rev grid border border-line md:grid-cols-2">
             {/* Elyxer */}
             <div className="group border-b border-line bg-white p-10 transition-colors hover:bg-cream md:border-b-0 md:border-r md:p-14">
+              <div className="relative mb-8 aspect-[4/3] overflow-hidden rounded-[3px] bg-navy">
+                <img
+                  src={techProduct}
+                  alt="AI-native consumer application preview"
+                  loading="lazy"
+                  width={1280}
+                  height={1280}
+                  className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+                />
+                <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-navy/70 via-transparent to-transparent" />
+                <span className="absolute left-4 top-4 rounded-[2px] bg-gold/95 px-2.5 py-1 font-mono text-[0.7rem] uppercase tracking-[0.14em] text-navy">
+                  Live · In Development
+                </span>
+              </div>
               <span className="mb-6 block font-mono text-[0.72rem] uppercase tracking-[0.18em] text-gold">
                 Product 01 · Active Development
               </span>
