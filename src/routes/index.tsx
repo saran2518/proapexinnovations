@@ -268,14 +268,14 @@ function Index() {
             <div className="rev mt-2 border-t border-line">
               {PILLARS.map((p) => (
                 <div key={p.n} className="flex gap-8 border-b border-line py-7">
-                  <span className="shrink-0 pt-1 font-mono text-[0.65rem] tracking-[0.06em] text-gold">
+                  <span className="shrink-0 pt-1 font-mono text-[0.78rem] tracking-[0.06em] text-gold">
                     {p.n}
                   </span>
                   <div>
-                    <div className="mb-1.5 text-[0.95rem] font-semibold uppercase tracking-[0.02em] text-navy">
+                    <div className="mb-1.5 text-[1rem] font-semibold uppercase tracking-[0.02em] text-navy">
                       {p.t}
                     </div>
-                    <div className="text-[0.87rem] font-light leading-[1.75] text-slate-ink">
+                    <div className="text-[0.95rem] font-light leading-[1.75] text-slate-ink">
                       {p.d}
                     </div>
                   </div>
