@@ -160,18 +160,18 @@ function Index() {
       {/* HERO */}
       <section
         id="hero"
-        className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-navy px-[5vw] pb-16 pt-[calc(130px+3rem)]"
+        className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-cream px-[5vw] pb-16 pt-[calc(130px+3rem)]"
       >
         <div
           className="absolute inset-0"
           style={{
             backgroundImage:
-              "radial-gradient(circle, rgba(34,211,238,0.06) 1px, transparent 1px)",
+              "radial-gradient(circle, rgba(2,132,199,0.08) 1px, transparent 1px)",
             backgroundSize: "40px 40px",
           }}
         />
-        <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-white/40 to-transparent" />
-        {/* Hero network visual — right side, blended into navy */}
+        <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-navy/30 to-transparent" />
+        {/* Hero network visual — right side, blended into sky */}
         <div
           aria-hidden
           className="pointer-events-none absolute inset-y-0 right-0 hidden w-[60%] md:block"
@@ -180,8 +180,8 @@ function Index() {
             backgroundSize: "cover",
             backgroundPosition: "center right",
             backgroundRepeat: "no-repeat",
-            mixBlendMode: "screen",
-            opacity: 0.75,
+            mixBlendMode: "multiply",
+            opacity: 0.35,
             maskImage:
               "linear-gradient(to right, transparent 0%, rgba(0,0,0,0.6) 35%, #000 70%)",
             WebkitMaskImage:
@@ -190,24 +190,24 @@ function Index() {
         />
         <div className="relative z-10 max-w-[900px]">
           <div className="mb-12 flex flex-wrap items-center gap-x-3 gap-y-2">
-            <span className="h-px w-9 bg-gradient-to-r from-transparent to-white/60" />
-            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] text-white/85">
+            <span className="h-px w-9 bg-gradient-to-r from-transparent to-navy/50" />
+            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] text-navy/85">
               Behavioural Data
             </span>
-            <span className="text-white/40 text-[0.7rem]">✦</span>
-            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] text-white/85">
+            <span className="text-navy/40 text-[0.7rem]">✦</span>
+            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] text-navy/85">
               Precision UX
             </span>
-            <span className="text-white/40 text-[0.7rem]">✦</span>
-            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] text-white/85">
+            <span className="text-navy/40 text-[0.7rem]">✦</span>
+            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] text-navy/85">
               AI-Native Products
             </span>
-            <span className="h-px w-9 bg-gradient-to-l from-transparent to-white/60" />
+            <span className="h-px w-9 bg-gradient-to-l from-transparent to-navy/50" />
           </div>
-          <h1 className="mb-14 font-serif text-[clamp(1.4rem,2.6vw,2.3rem)] font-normal leading-[1.15] text-white">
+          <h1 className="mb-14 font-serif text-[clamp(1.4rem,2.6vw,2.3rem)] font-normal leading-[1.15] text-navy">
             AI-first consumer applications built on
             <br />
-            <em className="not-italic font-serif italic text-white/95 underline decoration-white/30 decoration-1 underline-offset-[10px]">one obsession — “creating real solutions”</em>
+            <em className="not-italic font-serif italic text-navy underline decoration-navy/30 decoration-1 underline-offset-[10px]">one obsession — “creating real solutions”</em>
           </h1>
           <div className="mt-4 grid max-w-3xl grid-cols-1 gap-x-12 gap-y-5 md:grid-cols-[1fr_auto_1fr] md:items-center">
             {(() => {
@@ -227,18 +227,18 @@ function Index() {
                     {left.map((t, i) => (
                       <li
                         key={i}
-                        className="font-sans text-[0.95rem] font-light tracking-[0.01em] text-white/75"
+                        className="font-sans text-[0.95rem] font-light tracking-[0.01em] text-slate-ink"
                       >
                         {t}
                       </li>
                     ))}
                   </ul>
-                  <div aria-hidden className="hidden md:block h-full w-px bg-white/15" />
+                  <div aria-hidden className="hidden md:block h-full w-px bg-navy/15" />
                   <ul className="space-y-5">
                     {right.map((t, i) => (
                       <li
                         key={i}
-                        className="font-sans text-[0.95rem] font-light tracking-[0.01em] text-white/75"
+                        className="font-sans text-[0.95rem] font-light tracking-[0.01em] text-slate-ink"
                       >
                         {t}
                       </li>
@@ -250,6 +250,7 @@ function Index() {
           </div>
         </div>
       </section>
+
 
       {/* TICKER */}
       <div className="overflow-hidden border-y border-line bg-cream py-[1.1rem]">
@@ -450,39 +451,40 @@ function Index() {
       </section>
 
       {/* CAREERS */}
-      <section id="careers" className="bg-navy">
+      <section id="careers" className="bg-cream">
         <div className="mx-auto max-w-[1240px] px-[5vw] py-28">
           <div className="rev">
-            <div className="mb-5 flex items-center gap-2.5 font-mono text-[0.78rem] uppercase tracking-[0.18em] text-white/80">
-              <span className="h-px w-6 bg-white/70" />
+            <div className="mb-5 flex items-center gap-2.5 font-mono text-[0.78rem] uppercase tracking-[0.18em] text-navy/80">
+              <span className="h-px w-6 bg-navy/60" />
               Careers
             </div>
-            <h2 className="mb-6 font-serif text-[clamp(2.2rem,4vw,3.8rem)] font-normal leading-[1.15] text-white">
-              Engineers, designers,<br />researchers — <em className="not-italic font-serif italic text-white/90 underline decoration-white/30 decoration-1 underline-offset-[10px]">apply.</em>
+            <h2 className="mb-6 font-serif text-[clamp(2.2rem,4vw,3.8rem)] font-normal leading-[1.15] text-navy">
+              Engineers, designers,<br />researchers — <em className="not-italic font-serif italic text-navy underline decoration-navy/30 decoration-1 underline-offset-[10px]">apply.</em>
             </h2>
-            <p className="mb-16 max-w-[520px] text-base font-light leading-[1.85] text-white/65">
+            <p className="mb-16 max-w-[520px] text-base font-light leading-[1.85] text-slate-ink">
               ProApex is building a focused team of product engineers, UX specialists, AI researchers, and consumer behaviour analysts. Candidates who want to build products that ship, scale, and perform in global markets.
             </p>
           </div>
-          <div className="rev rounded border border-white/20 px-8 py-16 text-center md:px-20 md:py-24">
-            <span className="mb-6 block font-mono text-[0.78rem] uppercase tracking-[0.2em] text-white/70">
+          <div className="rev rounded border border-line bg-white px-8 py-16 text-center md:px-20 md:py-24">
+            <span className="mb-6 block font-mono text-[0.78rem] uppercase tracking-[0.2em] text-muted-ink">
               Positions Opening
             </span>
-            <div className="mb-3 font-serif text-[1.75rem] font-normal text-white/95">
+            <div className="mb-3 font-serif text-[1.75rem] font-normal text-navy">
               Roles across all disciplines
             </div>
-            <p className="mx-auto mb-8 max-w-[400px] text-[0.95rem] font-light leading-[1.8] text-white/70">
+            <p className="mx-auto mb-8 max-w-[400px] text-[0.95rem] font-light leading-[1.8] text-slate-ink">
               Product engineering, UX design, AI/ML, consumer research, and growth. Positions will be listed as the team scales. Express early interest below.
             </p>
             <a
               href="mailto:careers@proapexinnovations.com"
-              className="inline-block rounded-[3px] border border-white/40 px-7 py-2.5 text-[0.88rem] font-medium uppercase tracking-[0.08em] text-white transition-all hover:bg-white hover:text-navy"
+              className="inline-block rounded-[3px] border border-navy px-7 py-2.5 text-[0.88rem] font-medium uppercase tracking-[0.08em] text-navy transition-all hover:bg-navy hover:text-white"
             >
               Express Interest
             </a>
           </div>
         </div>
       </section>
+
 
       {/* CONTACT */}
       <section id="contact" className="bg-cream py-28">
