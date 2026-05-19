@@ -537,7 +537,7 @@ function Index() {
             PROAPEX INNOVATIONS
           </div>
           <div className="font-mono text-[0.78rem] tracking-[0.04em] text-muted-ink">
-            © 2025 ProApex Innovations Private Limited. All rights reserved.
+            contact@proapexinnovations.com
           </div>
           <nav className="flex gap-8">
             {[
@@ -569,7 +569,7 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
 
 function H2({ children, className }: { children: React.ReactNode; className?: string }) {
   return (
-    <h2 className={`mb-6 font-serif text-[clamp(2.2rem,4vw,3.8rem)] font-normal leading-[1.15] text-navy ${className ?? ""}`}>
+    <h2 className={`mb-6 font-serif font-normal leading-[1.15] text-navy text-5xl ${className ?? ""}`}>
       {children}
     </h2>
   );
