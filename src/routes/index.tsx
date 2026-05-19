@@ -206,9 +206,9 @@ function Index() {
             <span className="h-px w-9 bg-gradient-to-l from-transparent to-navy/50" />
           </div>
           <h1 className="mb-14 font-serif font-normal leading-[1.15] text-navy text-5xl">
-            AI-first consumer applications built on
+            AI first consumer applications built on
             <br />
-            <em className="not-italic font-serif italic text-navy underline decoration-navy/30 decoration-1 underline-offset-[10px]">one obsession — <span style={{ color: "#B8860B" }}>“creating real solutions”</span></em>
+            <em className="not-italic font-serif italic text-navy underline decoration-navy/30 decoration-1 underline-offset-[10px]">one obsession <span style={{ color: "#B8860B" }}>“creating real solutions”</span></em>
           </h1>
           <div className="mt-4 grid max-w-3xl grid-cols-1 gap-x-12 gap-y-5 md:grid-cols-[1fr_auto_1fr] md:items-center">
             {(() => {
