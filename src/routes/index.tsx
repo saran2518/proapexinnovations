@@ -314,7 +314,7 @@ function Index() {
               </H2>
             </div>
             <p className="max-w-[560px] pt-2 text-base font-light leading-[1.85] text-slate-ink">
-              ProApex operates a repeatable product engineering methodology — from behavioural research and UX design through to AI integration and market deployment. Each discipline is applied in sequence, with measurable criteria at every stage.
+              We operate a repeatable product engineering methodology — from behavioral research and UX design through to AI integration and market deployment. Each discipline is applied in sequence, with measurable criteria at every stage.
             </p>
           </div>
           <div className="rev border-t border-line">
