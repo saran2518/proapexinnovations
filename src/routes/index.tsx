@@ -160,18 +160,18 @@ function Index() {
       {/* HERO */}
       <section
         id="hero"
-        className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-navy px-[5vw] pb-16 pt-[calc(130px+3rem)]"
+        className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-cream px-[5vw] pb-16 pt-[calc(130px+3rem)]"
       >
         <div
           className="absolute inset-0"
           style={{
             backgroundImage:
-              "radial-gradient(circle, rgba(34,211,238,0.06) 1px, transparent 1px)",
+              "radial-gradient(circle, rgba(2,132,199,0.08) 1px, transparent 1px)",
             backgroundSize: "40px 40px",
           }}
         />
-        <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-white/40 to-transparent" />
-        {/* Hero network visual — right side, blended into navy */}
+        <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-navy/30 to-transparent" />
+        {/* Hero network visual — right side, blended into sky */}
         <div
           aria-hidden
           className="pointer-events-none absolute inset-y-0 right-0 hidden w-[60%] md:block"
@@ -180,8 +180,8 @@ function Index() {
             backgroundSize: "cover",
             backgroundPosition: "center right",
             backgroundRepeat: "no-repeat",
-            mixBlendMode: "screen",
-            opacity: 0.75,
+            mixBlendMode: "multiply",
+            opacity: 0.35,
             maskImage:
               "linear-gradient(to right, transparent 0%, rgba(0,0,0,0.6) 35%, #000 70%)",
             WebkitMaskImage:
@@ -190,24 +190,24 @@ function Index() {
         />
         <div className="relative z-10 max-w-[900px]">
           <div className="mb-12 flex flex-wrap items-center gap-x-3 gap-y-2">
-            <span className="h-px w-9 bg-gradient-to-r from-transparent to-white/60" />
-            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] text-white/85">
+            <span className="h-px w-9 bg-gradient-to-r from-transparent to-navy/50" />
+            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] text-navy/85">
               Behavioural Data
             </span>
-            <span className="text-white/40 text-[0.7rem]">✦</span>
-            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] text-white/85">
+            <span className="text-navy/40 text-[0.7rem]">✦</span>
+            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] text-navy/85">
               Precision UX
             </span>
-            <span className="text-white/40 text-[0.7rem]">✦</span>
-            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] text-white/85">
+            <span className="text-navy/40 text-[0.7rem]">✦</span>
+            <span className="font-mono text-[clamp(0.7rem,0.95vw,0.95rem)] uppercase tracking-[0.22em] text-navy/85">
               AI-Native Products
             </span>
-            <span className="h-px w-9 bg-gradient-to-l from-transparent to-white/60" />
+            <span className="h-px w-9 bg-gradient-to-l from-transparent to-navy/50" />
           </div>
-          <h1 className="mb-14 font-serif text-[clamp(1.4rem,2.6vw,2.3rem)] font-normal leading-[1.15] text-white">
+          <h1 className="mb-14 font-serif text-[clamp(1.4rem,2.6vw,2.3rem)] font-normal leading-[1.15] text-navy">
             AI-first consumer applications built on
             <br />
-            <em className="not-italic font-serif italic text-white/95 underline decoration-white/30 decoration-1 underline-offset-[10px]">one obsession — “creating real solutions”</em>
+            <em className="not-italic font-serif italic text-navy underline decoration-navy/30 decoration-1 underline-offset-[10px]">one obsession — “creating real solutions”</em>
           </h1>
           <div className="mt-4 grid max-w-3xl grid-cols-1 gap-x-12 gap-y-5 md:grid-cols-[1fr_auto_1fr] md:items-center">
             {(() => {
@@ -227,18 +227,18 @@ function Index() {
                     {left.map((t, i) => (
                       <li
                         key={i}
-                        className="font-sans text-[0.95rem] font-light tracking-[0.01em] text-white/75"
+                        className="font-sans text-[0.95rem] font-light tracking-[0.01em] text-slate-ink"
                       >
                         {t}
                       </li>
                     ))}
                   </ul>
-                  <div aria-hidden className="hidden md:block h-full w-px bg-white/15" />
+                  <div aria-hidden className="hidden md:block h-full w-px bg-navy/15" />
                   <ul className="space-y-5">
                     {right.map((t, i) => (
                       <li
                         key={i}
-                        className="font-sans text-[0.95rem] font-light tracking-[0.01em] text-white/75"
+                        className="font-sans text-[0.95rem] font-light tracking-[0.01em] text-slate-ink"
                       >
                         {t}
                       </li>
@@ -250,6 +250,7 @@ function Index() {
           </div>
         </div>
       </section>
+
 
       {/* TICKER */}
       <div className="overflow-hidden border-y border-line bg-cream py-[1.1rem]">
