@@ -73,14 +73,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "ProApex Innovations" },
+      { name: "description", content: "Build This Now is a website creation tool that allows users to reference and build web pages." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "ProApex Innovations" },
+      { property: "og:description", content: "Build This Now is a website creation tool that allows users to reference and build web pages." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "ProApex Innovations" },
+      { name: "twitter:description", content: "Build This Now is a website creation tool that allows users to reference and build web pages." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a6bda4d7-adf3-4fd1-9d4a-c885ce2f941b/id-preview-24f0e1e6--08187bfe-4930-43e2-9101-c05bad923a89.lovable.app-1779194194720.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a6bda4d7-adf3-4fd1-9d4a-c885ce2f941b/id-preview-24f0e1e6--08187bfe-4930-43e2-9101-c05bad923a89.lovable.app-1779194194720.png" },
     ],
     links: [
       {
