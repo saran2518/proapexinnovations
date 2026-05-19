@@ -85,6 +85,7 @@ const TICKER = [
 
 import proapexMark from "@/assets/proapex-mark.png";
 import heroNetwork from "@/assets/hero-network.png";
+import { InquiryDialog } from "@/components/InquiryDialog";
 
 function Logo() {
   return (
