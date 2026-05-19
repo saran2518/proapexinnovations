@@ -218,7 +218,7 @@ function Index() {
               const right = [
                 "Precision-engineered UX",
                 "AI embedded at the problem layer",
-                "Innovation embedded at every layer",
+                "Innovation integrated at every level",
               ];
               return (
                 <>
