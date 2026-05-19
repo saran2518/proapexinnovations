@@ -21,16 +21,18 @@
 }
 
 :root {
-  --navy: #0c4a6e;
-  --navy2: #0e5a82;
-  --slate-ink: #3a6b82;
-  --muted-ink: #6b8fa3;
-  --line: #c4eef5;
-  --cream: #ecfeff;
-  --gold: #0891b2;
-  --gold2: #22d3ee;
-  --background: #ffffff;
-  --foreground: #0c4a6e;
+  /* Two-tone palette: Lavender (#f5f3ff) + Aqua (#cffafe).
+     Text uses a deep tone from the lavender family for readability. */
+  --navy: #312e81;
+  --navy2: #4338ca;
+  --slate-ink: #4f46e5;
+  --muted-ink: #6366f1;
+  --line: #cffafe;
+  --cream: #f5f3ff;
+  --gold: #cffafe;
+  --gold2: #a5f3fc;
+  --background: #f5f3ff;
+  --foreground: #312e81;
   --nav-h: 130px;
 }
 
