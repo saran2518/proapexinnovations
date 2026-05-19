@@ -145,12 +145,14 @@ function Index() {
             </a>
           ))}
         </div>
-        <a
-          href="#contact"
-          className="hidden whitespace-nowrap rounded-[3px] border border-navy px-[22px] py-[9px] text-[0.9rem] font-medium tracking-[0.04em] text-navy transition-all hover:bg-navy hover:text-white md:inline-block"
-        >
-          Get in Touch
-        </a>
+        <InquiryDialog>
+          <button
+            type="button"
+            className="hidden whitespace-nowrap rounded-[3px] border border-navy px-[22px] py-[9px] text-[0.9rem] font-medium tracking-[0.04em] text-navy transition-all hover:bg-navy hover:text-white md:inline-block"
+          >
+            Get in Touch
+          </button>
+        </InquiryDialog>
         <div className="flex cursor-pointer flex-col gap-[5px] md:hidden">
           <span className="block h-[1.5px] w-[22px] bg-navy" />
           <span className="block h-[1.5px] w-[22px] bg-navy" />
