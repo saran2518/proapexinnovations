@@ -356,7 +356,7 @@ function Index() {
               Deployed to <em className="not-italic font-serif italic text-gold">market.</em>
             </H2>
             <p className="mt-4 max-w-[560px] text-base font-light leading-[1.85] text-slate-ink">
-              ProApex products are built, owned, and operated end-to-end. Each application is the direct output of the ProApex methodology — researched, engineered, and launched by the core team.
+              Our products are built, owned, and operated end-to-end. Each application is the direct output of our methodology — researched, engineered, and launched by the core team.
             </p>
           </div>
           <div className="rev grid border border-line md:grid-cols-2">
