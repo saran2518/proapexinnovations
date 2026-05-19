@@ -15,6 +15,26 @@
   --color-gold2: var(--gold2);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  /* shadcn semantic tokens — derived from the lavender + aqua palette */
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+
   --font-serif: "Playfair Display", Georgia, serif;
   --font-sans: "Outfit", sans-serif;
   --font-mono: "DM Mono", monospace;
@@ -35,6 +55,25 @@
   --background: #f5f3ff;
   --foreground: #312e81;
   --nav-h: 130px;
+
+  /* shadcn tokens mapped onto the palette */
+  --primary: #312e81;
+  --primary-foreground: #f5f3ff;
+  --secondary: #cffafe;
+  --secondary-foreground: #312e81;
+  --muted: #ede9fe;
+  --muted-foreground: #4338ca;
+  --accent: #0891b2;
+  --accent-foreground: #f5f3ff;
+  --destructive: #dc2626;
+  --destructive-foreground: #f5f3ff;
+  --border: #ddd6fe;
+  --input: #ddd6fe;
+  --ring: #4338ca;
+  --card: #ffffff;
+  --card-foreground: #312e81;
+  --popover: #ffffff;
+  --popover-foreground: #312e81;
 }
 
 @layer base {
