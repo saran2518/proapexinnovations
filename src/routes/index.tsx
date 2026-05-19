@@ -275,7 +275,7 @@ function Index() {
                 Engineered on data.<br />Deployed at <em className="not-italic font-serif italic text-gold">scale.</em>
               </H2>
               <p className="max-w-[560px] text-base font-light leading-[1.85] text-slate-ink">
-                ProApex Innovations builds and deploys AI-first consumer applications. Every product is grounded in quantified behavioural research, engineered with precision UX methodology, and powered by AI integrated at the problem layer — not the interface layer. Built in India, architected for international markets.
+                Our team builds and deploys AI-first consumer applications. Every product is grounded in quantified behavioral research, engineered with precision UX methodology, and powered by AI integrated at the problem layer — not the interface layer.
               </p>
             </div>
             <div className="rev mt-2 border-t border-line">
