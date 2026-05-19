@@ -123,7 +123,7 @@ function Index() {
   return (
     <div>
       {/* NAV */}
-      <nav className="fixed inset-x-0 top-0 z-[200] flex h-[130px] items-center justify-between border-b border-line bg-white pl-4 pr-[5vw]">
+      <nav className="fixed inset-x-0 top-0 z-[200] flex h-[130px] items-center justify-between bg-white pl-4 pr-[5vw] after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-line after:z-[210]">
         <a href="#hero" className="flex shrink-0 items-center">
           <Logo />
         </a>
