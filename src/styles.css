@@ -22,15 +22,16 @@
 
 :root {
   /* Two-tone palette: Lavender (#f5f3ff) + Aqua (#cffafe).
-     Text uses a deep tone from the lavender family for readability. */
-  --navy: #312e81;
-  --navy2: #4338ca;
-  --slate-ink: #4f46e5;
-  --muted-ink: #6366f1;
-  --line: #cffafe;
-  --cream: #f5f3ff;
-  --gold: #cffafe;
-  --gold2: #a5f3fc;
+     Deep indigo + deep teal are derived from these families
+     so text and accents remain readable on the light surfaces. */
+  --navy: #312e81;        /* deep indigo — primary text / dark surface */
+  --navy2: #4338ca;       /* indigo accent */
+  --slate-ink: #4338ca;   /* secondary text */
+  --muted-ink: #6366f1;   /* muted text */
+  --line: #ddd6fe;        /* lavender border */
+  --cream: #f5f3ff;       /* lavender surface */
+  --gold: #0891b2;        /* deep teal — accent (from aqua family) */
+  --gold2: #22d3ee;       /* aqua highlight */
   --background: #f5f3ff;
   --foreground: #312e81;
   --nav-h: 130px;
