@@ -181,7 +181,7 @@ function Index() {
             backgroundPosition: "center right",
             backgroundRepeat: "no-repeat",
             mixBlendMode: "multiply",
-            opacity: 0.35,
+            opacity: 0.7,
             maskImage:
               "linear-gradient(to right, transparent 0%, rgba(0,0,0,0.6) 35%, #000 70%)",
             WebkitMaskImage:
