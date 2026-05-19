@@ -41,39 +41,38 @@
 }
 
 :root {
-  /* Two-tone palette: Lavender (#f5f3ff) + Aqua (#cffafe).
-     Deep indigo + deep teal are derived from these families
-     so text and accents remain readable on the light surfaces. */
-  --navy: #312e81;        /* deep indigo — primary text / dark surface */
-  --navy2: #4338ca;       /* indigo accent */
-  --slate-ink: #4338ca;   /* secondary text */
-  --muted-ink: #6366f1;   /* muted text */
-  --line: #ddd6fe;        /* lavender border */
-  --cream: #f5f3ff;       /* lavender surface */
-  --gold: #0891b2;        /* deep teal — accent (from aqua family) */
-  --gold2: #22d3ee;       /* aqua highlight */
-  --background: #f5f3ff;
-  --foreground: #312e81;
+  /* Two-tone palette: White (#ffffff) + Sky (#e0f2fe).
+     Deep sky-blue derivatives provide readable text/accents on the airy surfaces. */
+  --navy: #0c4a6e;        /* deep sky — primary text / dark surface */
+  --navy2: #075985;       /* sky accent */
+  --slate-ink: #0369a1;   /* secondary text */
+  --muted-ink: #0284c7;   /* muted text */
+  --line: #bae6fd;        /* sky border */
+  --cream: #e0f2fe;       /* sky surface */
+  --gold: #0284c7;        /* sky accent */
+  --gold2: #38bdf8;       /* light sky highlight */
+  --background: #ffffff;
+  --foreground: #0c4a6e;
   --nav-h: 130px;
 
   /* shadcn tokens mapped onto the palette */
-  --primary: #312e81;
-  --primary-foreground: #f5f3ff;
-  --secondary: #cffafe;
-  --secondary-foreground: #312e81;
-  --muted: #ede9fe;
-  --muted-foreground: #4338ca;
-  --accent: #0891b2;
-  --accent-foreground: #f5f3ff;
+  --primary: #0c4a6e;
+  --primary-foreground: #ffffff;
+  --secondary: #e0f2fe;
+  --secondary-foreground: #0c4a6e;
+  --muted: #f0f9ff;
+  --muted-foreground: #0369a1;
+  --accent: #0284c7;
+  --accent-foreground: #ffffff;
   --destructive: #dc2626;
-  --destructive-foreground: #f5f3ff;
-  --border: #ddd6fe;
-  --input: #ddd6fe;
-  --ring: #4338ca;
+  --destructive-foreground: #ffffff;
+  --border: #bae6fd;
+  --input: #bae6fd;
+  --ring: #0284c7;
   --card: #ffffff;
-  --card-foreground: #312e81;
+  --card-foreground: #0c4a6e;
   --popover: #ffffff;
-  --popover-foreground: #312e81;
+  --popover-foreground: #0c4a6e;
 }
 
 @layer base {
