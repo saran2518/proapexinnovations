@@ -205,7 +205,7 @@ function Index() {
             </span>
             <span className="h-px w-9 bg-gradient-to-l from-transparent to-navy/50" />
           </div>
-          <h1 className="mb-14 font-serif font-normal leading-[1.15] text-navy text-5xl">
+          <h1 className="mb-14 font-serif font-normal leading-[1.15] text-navy text-4xl">
             AI-first consumer applications built on
             <br />
             <em className="not-italic font-serif italic text-navy underline decoration-navy/30 decoration-1 underline-offset-[10px]">one obsession — <span style={{ color: "#B8860B" }}>“creating real solutions”</span></em>
