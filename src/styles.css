@@ -13,6 +13,8 @@
   --color-cream: var(--cream);
   --color-gold: var(--gold);
   --color-gold2: var(--gold2);
+  --color-emerald: var(--emerald);
+  --color-emerald2: var(--emerald2);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
 
@@ -41,38 +43,39 @@
 }
 
 :root {
-  /* Two-tone palette: White (#ffffff) + Sky (#e0f2fe).
-     Deep sky-blue derivatives provide readable text/accents on the airy surfaces. */
-  --navy: #0c4a6e;        /* deep sky — primary text / dark surface */
-  --navy2: #075985;       /* sky accent */
-  --slate-ink: #0369a1;   /* secondary text */
-  --muted-ink: #0284c7;   /* muted text */
-  --line: #bae6fd;        /* sky border */
-  --cream: #e0f2fe;       /* sky surface */
-  --gold: #0284c7;        /* sky accent */
-  --gold2: #38bdf8;       /* light sky highlight */
+  /* Palette: Crisp White background, Charcoal text, Gold + Emerald accents. */
+  --navy: #1f2937;        /* charcoal — primary text / dark surface */
+  --navy2: #111827;       /* deeper charcoal */
+  --slate-ink: #374151;   /* secondary text */
+  --muted-ink: #6b7280;   /* muted text */
+  --line: #e5e7eb;        /* neutral border */
+  --cream: #f9fafb;       /* off-white surface */
+  --gold: #b8860b;        /* gold accent */
+  --gold2: #d4af37;       /* lighter gold highlight */
+  --emerald: #047857;     /* emerald accent */
+  --emerald2: #10b981;    /* lighter emerald */
   --background: #ffffff;
-  --foreground: #0c4a6e;
+  --foreground: #1f2937;
   --nav-h: 130px;
 
   /* shadcn tokens mapped onto the palette */
-  --primary: #0c4a6e;
+  --primary: #1f2937;
   --primary-foreground: #ffffff;
-  --secondary: #e0f2fe;
-  --secondary-foreground: #0c4a6e;
-  --muted: #f0f9ff;
-  --muted-foreground: #0369a1;
-  --accent: #0284c7;
+  --secondary: #f9fafb;
+  --secondary-foreground: #1f2937;
+  --muted: #f3f4f6;
+  --muted-foreground: #6b7280;
+  --accent: #047857;
   --accent-foreground: #ffffff;
   --destructive: #dc2626;
   --destructive-foreground: #ffffff;
-  --border: #bae6fd;
-  --input: #bae6fd;
-  --ring: #0284c7;
+  --border: #e5e7eb;
+  --input: #e5e7eb;
+  --ring: #b8860b;
   --card: #ffffff;
-  --card-foreground: #0c4a6e;
+  --card-foreground: #1f2937;
   --popover: #ffffff;
-  --popover-foreground: #0c4a6e;
+  --popover-foreground: #1f2937;
 }
 
 @layer base {
