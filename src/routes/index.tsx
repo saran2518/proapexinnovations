@@ -437,12 +437,14 @@ function Index() {
                 Selective conversations open with strategic partners and investors aligned with the ProApex thesis.
               </p>
             </div>
-            <a
-              href="#contact"
-              className="inline-block whitespace-nowrap rounded-[3px] border border-navy bg-navy px-7 py-3 font-mono text-[0.85rem] uppercase tracking-[0.12em] text-white transition-all hover:bg-white hover:text-navy"
-            >
-              Get in Touch
-            </a>
+            <InquiryDialog>
+              <button
+                type="button"
+                className="inline-block whitespace-nowrap rounded-[3px] border border-navy bg-navy px-7 py-3 font-mono text-[0.85rem] uppercase tracking-[0.12em] text-white transition-all hover:bg-white hover:text-navy"
+              >
+                Get in Touch
+              </button>
+            </InquiryDialog>
           </div>
         </div>
       </section>
