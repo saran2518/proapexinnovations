@@ -535,7 +535,7 @@ function Index() {
             PROAPEX INNOVATIONS
           </div>
           <div className="font-mono text-[0.78rem] tracking-[0.04em] text-muted-ink">
-            contact@proapexinnovations.com
+            proapexinnovations@gmail.com
           </div>
           <nav className="flex gap-8">
             {[
