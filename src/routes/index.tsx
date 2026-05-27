@@ -208,7 +208,7 @@ function Index() {
             </span>
             <span className="h-px w-9 bg-gradient-to-l from-transparent to-navy/50" />
           </div>
-          <h1 className="mb-14 font-serif font-normal leading-[1.15] text-navy text-6xl">
+          <h1 className="mb-14 font-serif font-normal leading-[1.15] text-navy text-5xl">
             AI-first Consumer Apps built on one obsession <span style={{ color: "#B8860B" }}>"Creating Real Solutions"</span>
           </h1>
           <div className="mt-4 grid max-w-3xl grid-cols-1 gap-x-12 gap-y-5 md:grid-cols-[1fr_auto_1fr] md:items-center">
