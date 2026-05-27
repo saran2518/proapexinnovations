@@ -475,7 +475,7 @@ function Index() {
               Product engineering, UX design, AI/ML, consumer research, and growth. Positions will be listed as the team scales. Express early interest below.
             </p>
             <a
-              href="mailto:careers@proapexinnovations.com"
+              href="mailto:proapexinnovations@gmail.com"
               className="inline-block rounded-[3px] border border-navy px-7 py-2.5 text-[0.88rem] font-medium uppercase tracking-[0.08em] text-navy transition-all hover:bg-navy hover:text-white"
             >
               Express Interest
@@ -497,7 +497,7 @@ function Index() {
               <div className="mt-12 border-t border-line">
                 {[
                   ["General", <a key="g" href="mailto:proapexinnovations@gmail.com" className="border-b border-line text-navy transition-colors hover:border-gold">proapexinnovations@gmail.com</a>],
-                  ["Careers", <a key="c" href="mailto:careers@proapexinnovations.com" className="border-b border-line text-navy transition-colors hover:border-gold">careers@proapexinnovations.com</a>],
+                  ["Careers", <a key="c" href="mailto:proapexinnovations@gmail.com" className="border-b border-line text-navy transition-colors hover:border-gold">proapexinnovations@gmail.com</a>],
                   ["Registered Entity", "ProApex Innovations Private Limited"],
                   ["Headquarters", "India"],
                   ["Operating Markets", "India · United Kingdom · Europe"],
