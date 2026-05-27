@@ -496,7 +496,7 @@ function Index() {
               </H2>
               <div className="mt-12 border-t border-line">
                 {[
-                  ["General", <a key="g" href="mailto:hello@proapexinnovations.com" className="border-b border-line text-navy transition-colors hover:border-gold">hello@proapexinnovations.com</a>],
+                  ["General", <a key="g" href="mailto:proapexinnovations@gmail.com" className="border-b border-line text-navy transition-colors hover:border-gold">proapexinnovations@gmail.com</a>],
                   ["Careers", <a key="c" href="mailto:careers@proapexinnovations.com" className="border-b border-line text-navy transition-colors hover:border-gold">careers@proapexinnovations.com</a>],
                   ["Registered Entity", "ProApex Innovations Private Limited"],
                   ["Headquarters", "India"],

@@ -51,7 +51,7 @@ export function InquiryDialog({ children }: { children: ReactNode }) {
     const body = encodeURIComponent(
       `Name: ${parsed.data.name}\nEmail: ${parsed.data.email}\nCompany: ${parsed.data.company || "-"}\n\n${parsed.data.message}`,
     );
-    window.location.href = `mailto:hello@proapexinnovations.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:proapexinnovations@gmail.com?subject=${subject}&body=${body}`;
     setTimeout(() => {
       setSubmitting(false);
       setOpen(false);
