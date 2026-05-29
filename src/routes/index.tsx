@@ -339,40 +339,6 @@ function Index() {
             ))}
           </div>
 
-          {/* Part Three: Our brands */}
-          <div className="rev mt-24">
-            <SectionLabel>Our brands</SectionLabel>
-            <div className="mt-8 grid gap-8 md:grid-cols-2">
-              {BRANDS.map((b) => (
-                <div key={b.n} className="flex flex-col border border-line bg-white p-10 md:p-12">
-                  <div className="mb-6 flex items-baseline gap-4">
-                    <span className="font-mono text-[0.78rem] tracking-[0.06em] text-gold">
-                      Brand {b.n}
-                    </span>
-                    <span className="font-mono text-[0.72rem] uppercase tracking-[0.18em] text-muted-ink">
-                      {b.status}
-                    </span>
-                  </div>
-                  <h3 className="mb-5 font-serif text-[1.6rem] font-normal leading-[1.25] text-navy">
-                    {b.title}
-                  </h3>
-                  <p className="mb-8 text-[0.95rem] font-light leading-[1.85] text-slate-ink">
-                    {b.body}
-                  </p>
-                  <div className="mt-auto flex flex-col gap-3 border-t border-line pt-6">
-                    {b.specs.map(([k, v]) => (
-                      <div key={k} className="flex items-baseline justify-between gap-6">
-                        <span className="font-mono text-[0.75rem] uppercase tracking-[0.1em] text-muted-ink">
-                          {k}
-                        </span>
-                        <span className="text-right font-mono text-[0.82rem] text-navy">{v}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
       </section>
 
