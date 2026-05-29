@@ -354,7 +354,7 @@ function Index() {
                 Vision
               </span>
               <h3 className="mt-4 font-serif text-[2rem] font-medium leading-[1.2] text-navy md:text-[2.4rem]">
-                Finding Solutions.
+                Finding Real Solutions.
               </h3>
               <p className="mt-5 max-w-[680px] text-base font-light leading-[1.85] text-slate-ink">
                 We exist to identify where consumer markets are broken and build the products that fix them.
