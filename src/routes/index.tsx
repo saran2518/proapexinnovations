@@ -307,9 +307,9 @@ function Index() {
             <div className="rev">
               <SectionLabel>About</SectionLabel>
               <H2 className="text-4xl">
-                Global scale.<br />
-                AI-engineered applications.<br />
-                High-TAM <em className="not-italic font-serif italic text-gold">markets.</em>
+                <span className="text-gold">Global</span> scale.<br />
+                <span className="text-gold">AI-engineered</span> applications.<br />
+                <span className="text-gold">High-TAM</span> <em className="not-italic font-serif italic">markets.</em>
               </H2>
               <p className="max-w-[560px] text-base font-light leading-[1.85] text-slate-ink">
                 We identify where the gap between user intent and product experience is large enough to define a category. Then we build the brand that owns it.
