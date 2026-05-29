@@ -162,7 +162,7 @@ function Index() {
         <div className="hidden items-center gap-10 md:flex">
           {[
             ["About", "#about"],
-            ["Vision", "#vision-mission"],
+            ["Vision-Mission", "#vision-mission"],
             ["What We Do", "#services"],
             ["Our Brands", "#products"],
             ["Careers", "#careers"],
