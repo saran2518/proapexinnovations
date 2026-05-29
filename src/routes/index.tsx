@@ -339,40 +339,6 @@ function Index() {
             ))}
           </div>
 
-          {/* Part Three: Our brands */}
-          <div className="rev mt-24">
-            <SectionLabel>Our brands</SectionLabel>
-            <div className="mt-8 grid gap-8 md:grid-cols-2">
-              {BRANDS.map((b) => (
-                <div key={b.n} className="flex flex-col border border-line bg-white p-10 md:p-12">
-                  <div className="mb-6 flex items-baseline gap-4">
-                    <span className="font-mono text-[0.78rem] tracking-[0.06em] text-gold">
-                      Brand {b.n}
-                    </span>
-                    <span className="font-mono text-[0.72rem] uppercase tracking-[0.18em] text-muted-ink">
-                      {b.status}
-                    </span>
-                  </div>
-                  <h3 className="mb-5 font-serif text-[1.6rem] font-normal leading-[1.25] text-navy">
-                    {b.title}
-                  </h3>
-                  <p className="mb-8 text-[0.95rem] font-light leading-[1.85] text-slate-ink">
-                    {b.body}
-                  </p>
-                  <div className="mt-auto flex flex-col gap-3 border-t border-line pt-6">
-                    {b.specs.map(([k, v]) => (
-                      <div key={k} className="flex items-baseline justify-between gap-6">
-                        <span className="font-mono text-[0.75rem] uppercase tracking-[0.1em] text-muted-ink">
-                          {k}
-                        </span>
-                        <span className="text-right font-mono text-[0.82rem] text-navy">{v}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
       </section>
 
@@ -422,103 +388,49 @@ function Index() {
 
       <div className="mx-[5vw] h-px bg-line" />
 
-      {/* PRODUCTS */}
+      {/* PRODUCTS — BRANDS */}
       <section id="products" className="bg-white py-28">
         <div className="mx-auto max-w-[1240px] px-[5vw]">
           <div className="rev mb-20">
-            <SectionLabel>Our Products</SectionLabel>
+            <SectionLabel>Our Brands</SectionLabel>
             <H2>
-              Built in-house.
+              Global scale.
               <br />
-              Deployed to <em className="not-italic font-serif italic text-gold">market.</em>
+              AI-engineered <em className="not-italic font-serif italic text-gold">brands.</em>
             </H2>
             <p className="mt-4 max-w-[560px] text-base font-light leading-[1.85] text-slate-ink">
-              Our products are built, owned, and operated end-to-end. Each application is the direct output of our methodology — researched, engineered, and launched by the core team.
+              We identify where the gap between user intent and product experience is large enough to define a category. Then we build the brand that owns it.
             </p>
           </div>
-          <div className="rev grid border border-line md:grid-cols-2">
-            {/* Elyxer */}
-            <div className="group border-b border-line bg-white p-10 transition-colors hover:bg-cream md:border-b-0 md:border-r md:p-14">
-              <span className="mb-6 block font-mono text-[0.72rem] uppercase tracking-[0.18em] text-gold">
-                Product 01 · Active Development
-              </span>
-              <div className="mb-2 font-serif text-[2.2rem] font-normal leading-none text-muted-ink">
-                Undisclosed
+          <div className="rev mt-8 grid gap-8 md:grid-cols-2">
+            {BRANDS.map((b) => (
+              <div key={b.n} className="flex flex-col border border-line bg-white p-10 md:p-12">
+                <div className="mb-6 flex items-baseline gap-4">
+                  <span className="font-mono text-[0.78rem] tracking-[0.06em] text-gold">
+                    Brand {b.n}
+                  </span>
+                  <span className="font-mono text-[0.72rem] uppercase tracking-[0.18em] text-muted-ink">
+                    {b.status}
+                  </span>
+                </div>
+                <h3 className="mb-5 font-serif text-[1.6rem] font-normal leading-[1.25] text-navy">
+                  {b.title}
+                </h3>
+                <p className="mb-8 text-[0.95rem] font-light leading-[1.85] text-slate-ink">
+                  {b.body}
+                </p>
+                <div className="mt-auto flex flex-col gap-3 border-t border-line pt-6">
+                  {b.specs.map(([k, v]) => (
+                    <div key={k} className="flex items-baseline justify-between gap-6">
+                      <span className="font-mono text-[0.75rem] uppercase tracking-[0.1em] text-muted-ink">
+                        {k}
+                      </span>
+                      <span className="text-right font-mono text-[0.82rem] text-navy">{v}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
-              <div className="mb-6 font-mono text-[0.8rem] uppercase tracking-[0.06em] text-muted-ink">
-                AI-Native Consumer Application
-              </div>
-              <p className="mb-8 max-w-[360px] text-[0.95rem] font-light leading-[1.85] text-slate-ink">
-                The first ProApex consumer application — an AI-native product engineered around precision UX and deep behavioural intelligence. Designed for the way users actually interact, not the way interfaces traditionally assume they do.
-              </p>
-              <div className="flex flex-col gap-3 border-t border-line pt-6">
-                {[
-                  ["Category", "Consumer Application"],
-                  ["AI Layer", "Problem-Layer Integration"],
-                  ["Target Markets", "India · UK · Europe"],
-                  ["Architecture", "AI-Native · Mobile-First"],
-                ].map(([k, v]) => (
-                  <div key={k} className="flex items-center justify-between">
-                    <span className="font-mono text-[0.75rem] uppercase tracking-[0.1em] text-muted-ink">
-                      {k}
-                    </span>
-                    <span className="font-mono text-[0.82rem] text-navy">{v}</span>
-                  </div>
-                ))}
-              </div>
-              <span className="mt-6 inline-block rounded-[2px] border border-gold/40 px-2.5 py-1 font-mono text-[0.72rem] uppercase tracking-[0.12em] text-gold">
-                In Development
-              </span>
-            </div>
-            {/* Future */}
-            <div className="bg-white p-10 opacity-60 md:p-14">
-              <span className="mb-6 block font-mono text-[0.72rem] uppercase tracking-[0.18em] text-gold">
-                Product 02 · Pipeline
-              </span>
-              <div className="mb-2 font-serif text-[2.2rem] font-normal leading-none text-muted-ink">
-                Undisclosed
-              </div>
-              <div className="mb-6 font-mono text-[0.8rem] uppercase tracking-[0.06em] text-muted-ink">
-                Next ProApex Product
-              </div>
-              <p className="mb-8 max-w-[360px] text-[0.95rem] font-light leading-[1.85] text-slate-ink">
-                The next ProApex product is currently in the research and behavioural analysis phase. Market, category, and product details will be disclosed at the appropriate stage of development.
-              </p>
-              <div className="flex flex-col gap-3 border-t border-line pt-6">
-                {[
-                  ["Stage", "Behavioural Research Phase"],
-                  ["Disclosure", "TBA"],
-                ].map(([k, v]) => (
-                  <div key={k} className="flex items-center justify-between">
-                    <span className="font-mono text-[0.75rem] uppercase tracking-[0.1em] text-muted-ink">
-                      {k}
-                    </span>
-                    <span className="font-mono text-[0.82rem] text-navy">{v}</span>
-                  </div>
-                ))}
-              </div>
-              <span className="mt-6 inline-block rounded-[2px] border border-line px-2.5 py-1 font-mono text-[0.72rem] uppercase tracking-[0.12em] text-muted-ink">
-                Coming
-              </span>
-            </div>
-          </div>
-          <div className="rev mt-16 flex flex-col items-start justify-between gap-6 border-t border-line pt-10 md:flex-row md:items-center">
-            <div>
-              <div className="mb-2 font-mono text-[0.75rem] uppercase tracking-[0.18em] text-gold">
-                For Investors & Partners
-              </div>
-              <p className="max-w-[520px] text-[1rem] font-light leading-[1.7] text-slate-ink">
-                Selective conversations open with strategic partners and investors aligned with the ProApex thesis.
-              </p>
-            </div>
-            <InquiryDialog>
-              <button
-                type="button"
-                className="inline-block whitespace-nowrap rounded-[3px] border border-navy bg-navy px-7 py-3 font-mono text-[0.85rem] uppercase tracking-[0.12em] text-white transition-all hover:bg-white hover:text-navy"
-              >
-                Get in Touch
-              </button>
-            </InquiryDialog>
+            ))}
           </div>
         </div>
       </section>
