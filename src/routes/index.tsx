@@ -79,7 +79,7 @@ const SERVICES = [
 const BRANDS = [
   {
     n: "01",
-    status: "Active",
+    status: "Active-Development",
     title: "A Globally Redefined Dating application built on experience, emotion, and elegance.",
     body: "The first ProApex brand operates in a globally proven subscription market. Engineered around emotional nuance and elegant interaction, the product is designed to own a category defined by experience rather than feature count.",
     specs: [
