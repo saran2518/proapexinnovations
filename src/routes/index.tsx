@@ -191,6 +191,11 @@ function Index() {
         </div>
       </nav>
       <div aria-hidden className="pointer-events-none fixed inset-x-0 top-[130px] z-[300] h-px bg-line" />
+      <div className="fixed inset-x-0 top-[131px] z-[290] flex justify-center bg-white/95 backdrop-blur-sm py-1.5">
+        <span className="font-mono text-[0.7rem] uppercase tracking-[0.22em] text-navy/60">
+          Vision &nbsp;&nbsp; Finding Solutions.
+        </span>
+      </div>
 
       {/* HERO */}
       <section
@@ -343,6 +348,37 @@ function Index() {
       </section>
 
       <div className="mx-[5vw] h-px bg-line" />
+
+      {/* VISION & MISSION */}
+      <section id="vision-mission" className="bg-white py-28">
+        <div className="mx-auto max-w-[1240px] px-[5vw]">
+          <div className="rev mx-auto max-w-[960px] rounded-xl border border-line bg-white">
+            <div className="p-10 md:p-14">
+              <span className="block font-mono text-[0.78rem] uppercase tracking-[0.22em] text-gold">
+                Vision
+              </span>
+              <h3 className="mt-4 font-serif text-[2rem] font-medium leading-[1.2] text-navy md:text-[2.4rem]">
+                Finding Solutions.
+              </h3>
+              <p className="mt-5 max-w-[680px] text-base font-light leading-[1.85] text-slate-ink">
+                We exist to identify where consumer markets are broken and build the products that fix them.
+              </p>
+            </div>
+            <div aria-hidden style={{ height: "0.5px" }} className="w-full bg-line" />
+            <div className="p-10 md:p-14">
+              <span className="block font-mono text-[0.78rem] uppercase tracking-[0.22em] text-gold">
+                Mission
+              </span>
+              <h3 className="mt-4 font-serif text-[1.6rem] font-medium leading-[1.3] text-navy md:text-[1.9rem]">
+                To build AI-powered consumer brands that resolve real UX and CX failures at scale.
+              </h3>
+              <p className="mt-5 max-w-[760px] text-base font-light leading-[1.85] text-slate-ink">
+                We apply ML-driven analysis of user behaviour and product bottlenecks to engineer applications that solve problems existing platforms have failed to address. Every product we ship is grounded in research, built with precision, and designed to earn lasting user trust.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* SERVICES */}
       <section id="services" className="bg-cream py-28">
