@@ -354,7 +354,7 @@ function Index() {
                 Vision
               </span>
               <h3 className="mt-4 font-serif text-[2rem] font-medium leading-[1.2] text-navy md:text-[2.4rem]">
-                Finding Real Solutions.
+                Finding <span className="text-gold">Real Solutions</span>.
               </h3>
               <p className="mt-5 max-w-[680px] text-base font-light leading-[1.85] text-slate-ink">
                 We exist to identify where consumer markets are broken and build the products that fix them.
@@ -366,7 +366,7 @@ function Index() {
                 Mission
               </span>
               <h3 className="mt-4 font-serif text-[1.6rem] font-medium leading-[1.3] text-navy md:text-[1.9rem]">
-                To build AI-powered consumer brands that resolve real UX and CX failures at scale.
+                To build <span className="text-gold">AI-powered consumer brands</span> that resolve real UX and CX failures at scale.
               </h3>
               <p className="mt-5 max-w-[760px] text-base font-light leading-[1.85] text-slate-ink">
                 We apply ML-driven analysis of user behaviour and product bottlenecks to engineer applications that solve problems existing platforms have failed to address. Every product we ship is grounded in research, built with precision, and designed to earn lasting user trust.
