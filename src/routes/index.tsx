@@ -527,7 +527,7 @@ function Index() {
             {[
               ["About", "#about"],
               ["What We Do", "#services"],
-              ["Products", "#products"],
+              ["Brands", "#products"],
               ["Careers", "#careers"],
               ["Contact", "#contact"],
             ].map(([l, h]) => (
