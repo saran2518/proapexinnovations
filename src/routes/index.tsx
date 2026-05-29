@@ -302,29 +302,72 @@ function Index() {
       {/* ABOUT */}
       <section id="about" className="bg-white py-28">
         <div className="mx-auto max-w-[1240px] px-[5vw]">
+          {/* Part One: headline + lead */}
           <div className="grid items-start gap-12 md:grid-cols-2 md:gap-28">
             <div className="rev">
               <SectionLabel>About</SectionLabel>
               <H2 className="text-4xl">
-                Engineered on data.<br />Deployed at <em className="not-italic font-serif italic text-gold">scale.</em>
+                Global scale.<br />
+                AI-engineered applications.<br />
+                High-TAM <em className="not-italic font-serif italic text-gold">markets.</em>
               </H2>
               <p className="max-w-[560px] text-base font-light leading-[1.85] text-slate-ink">
-                Our team builds and deploys AI-first consumer applications. Every product is grounded in quantified behavioral research, engineered with precision UX methodology, and powered by AI integrated at the problem layer — not the interface layer.
+                We identify where the gap between user intent and product experience is large enough to define a category. Then we build the brand that owns it.
               </p>
             </div>
-            <div className="rev mt-2 border-t border-line">
-              {PILLARS.map((p) => (
-                <div key={p.n} className="flex gap-8 border-b border-line py-7">
-                  <span className="shrink-0 pt-1 font-mono text-[0.78rem] tracking-[0.06em] text-gold">
-                    {p.n}
-                  </span>
-                  <div>
-                    <div className="mb-1.5 text-[1rem] font-semibold uppercase tracking-[0.02em] text-navy">
-                      {p.t}
-                    </div>
-                    <div className="text-[0.95rem] font-light leading-[1.75] text-slate-ink">
-                      {p.d}
-                    </div>
+            <div className="rev">
+              <p className="max-w-[560px] text-base font-light leading-[1.85] text-slate-ink">
+                ProApex is a consumer AI company that builds and owns category-defining consumer brands. Each one is grounded in a high-TAM market where existing products have failed to meet user expectation. We identify those gaps through ML-driven user behaviour research, engineer AI-enhanced applications around them, and deploy globally with a distinct brand identity built for longevity, not just launch. Our first brand operates in the dating vertical, a globally proven subscription market. A real estate brand follows, validating our repeatable vertical-expansion playbook.
+              </p>
+            </div>
+          </div>
+
+          {/* Part Two: four-pillar grid */}
+          <div className="rev mt-24 grid gap-px border border-line bg-line sm:grid-cols-2 lg:grid-cols-4">
+            {PILLARS.map((p) => (
+              <div key={p.n} className="bg-white p-8">
+                <span className="block font-mono text-[0.78rem] tracking-[0.06em] text-gold">
+                  {p.n}
+                </span>
+                <div className="mt-4 mb-3 text-[1rem] font-semibold uppercase tracking-[0.02em] text-navy">
+                  {p.t}
+                </div>
+                <div className="text-[0.95rem] font-light leading-[1.75] text-slate-ink">
+                  {p.d}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Part Three: Our brands */}
+          <div className="rev mt-24">
+            <SectionLabel>Our brands</SectionLabel>
+            <div className="mt-8 grid gap-8 md:grid-cols-2">
+              {BRANDS.map((b) => (
+                <div key={b.n} className="flex flex-col border border-line bg-white p-10 md:p-12">
+                  <div className="mb-6 flex items-baseline gap-4">
+                    <span className="font-mono text-[0.78rem] tracking-[0.06em] text-gold">
+                      Brand {b.n}
+                    </span>
+                    <span className="font-mono text-[0.72rem] uppercase tracking-[0.18em] text-muted-ink">
+                      {b.status}
+                    </span>
+                  </div>
+                  <h3 className="mb-5 font-serif text-[1.6rem] font-normal leading-[1.25] text-navy">
+                    {b.title}
+                  </h3>
+                  <p className="mb-8 text-[0.95rem] font-light leading-[1.85] text-slate-ink">
+                    {b.body}
+                  </p>
+                  <div className="mt-auto flex flex-col gap-3 border-t border-line pt-6">
+                    {b.specs.map(([k, v]) => (
+                      <div key={k} className="flex items-baseline justify-between gap-6">
+                        <span className="font-mono text-[0.75rem] uppercase tracking-[0.1em] text-muted-ink">
+                          {k}
+                        </span>
+                        <span className="text-right font-mono text-[0.82rem] text-navy">{v}</span>
+                      </div>
+                    ))}
                   </div>
                 </div>
               ))}
@@ -342,35 +385,35 @@ function Index() {
             <div>
               <SectionLabel>What We Do</SectionLabel>
               <H2>
-                A defined methodology.
+                Identify. Analyse.
                 <br />
-                A measurable <em className="not-italic font-serif italic text-gold">output.</em>
+                Build. <em className="not-italic font-serif italic text-gold">Deploy.</em>
               </H2>
             </div>
             <p className="max-w-[560px] pt-2 text-base font-light leading-[1.85] text-slate-ink">
-              We operate a repeatable product engineering methodology — from behavioral research and UX design through to AI integration and market deployment. Each discipline is applied in sequence, with measurable criteria at every stage.
+              We build consumer brands that endure. Each one engineered with AI at the core, launched into high-TAM markets, and designed with an identity built for global scale.
             </p>
           </div>
-          <div className="rev border-t border-line">
+          <div className="rev grid gap-px border border-line bg-line sm:grid-cols-2">
             {SERVICES.map((s) => (
-              <div
-                key={s.n}
-                className="group grid grid-cols-[40px_1fr_28px] items-center gap-6 border-b border-line py-8 transition-colors hover:bg-gold/5 md:grid-cols-[60px_1fr_28px] md:gap-8"
-              >
-                <span className="font-mono text-[0.78rem] tracking-[0.06em] text-muted-ink">
+              <div key={s.n} className="flex flex-col bg-white p-10">
+                <span className="font-mono text-[0.78rem] tracking-[0.06em] text-gold">
                   {s.n}
                 </span>
-                <div>
-                  <div className="mb-1.5 text-[1.1rem] font-semibold uppercase tracking-[0.03em] text-navy transition-colors group-hover:text-gold">
-                    {s.t}
-                  </div>
-                  <div className="max-w-[580px] text-[0.95rem] font-light leading-[1.8] text-slate-ink">
-                    {s.d}
-                  </div>
+                <div className="mt-4 mb-3 text-[1.1rem] font-semibold uppercase tracking-[0.03em] text-navy">
+                  {s.t}
                 </div>
-                <span className="-translate-x-2 text-base text-gold opacity-0 transition-all group-hover:translate-x-0 group-hover:opacity-100">
-                  →
-                </span>
+                <p className="mb-6 text-[0.95rem] font-light leading-[1.8] text-slate-ink">
+                  {s.d}
+                </p>
+                <div className="mt-auto flex flex-col gap-1.5 border-t border-line pt-5 sm:flex-row sm:items-baseline sm:gap-6">
+                  <span className="shrink-0 font-mono text-[0.75rem] uppercase tracking-[0.1em] text-muted-ink">
+                    Output
+                  </span>
+                  <span className="text-[0.9rem] font-light leading-[1.7] text-navy">
+                    {s.o}
+                  </span>
+                </div>
               </div>
             ))}
           </div>
