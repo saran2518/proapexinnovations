@@ -29,46 +29,77 @@ export const Route = createFileRoute("/")({
 const PILLARS = [
   {
     n: "01",
-    t: "Behavioural Data Foundation",
-    d: "Every product decision is derived from quantified user behaviour data — journey telemetry, drop-off signals, interaction heatmaps — before a single component is designed.",
+    t: "Market selection",
+    d: "We target high-TAM verticals where existing products consistently fail to meet user expectation. Category gaps come first. Product follows.",
   },
   {
     n: "02",
-    t: "Precision UX Architecture",
-    d: "UX is the core infrastructure, not a surface layer. Interaction flows, information hierarchy, and response patterns are engineered to align exactly with how users process and navigate.",
+    t: "Brand engineering",
+    d: "Each brand is engineered as a category-defining identity. Built for longevity, designed for global recognition, never just a product launch.",
   },
   {
     n: "03",
-    t: "Problem-Layer AI Integration",
-    d: "AI is embedded at the point where it solves a defined user problem — adaptive personalisation, predictive intent mapping, contextual inference — not deployed as a feature for its own visibility.",
+    t: "AI-enhanced delivery",
+    d: "AI is engineered into the product where it closes a defined gap between user intent and product experience. Capability with purpose.",
   },
   {
     n: "04",
-    t: "Global-Scale Architecture",
-    d: "Products are architected from inception for multi-market deployment — scalable infrastructure, internationalisation-ready codebases, and compliance frameworks built for India, UK, and Europe.",
+    t: "Vertical compounding",
+    d: "A repeatable playbook applied vertical by vertical. Every brand compounds the capability of the next.",
   },
 ];
 
 const SERVICES = [
   {
     n: "01",
-    t: "Consumer Behavioural Research",
-    d: "Quantitative and qualitative analysis of real user behaviour — journey mapping, drop-off attribution, hesitation point identification, and intent signal extraction — conducted before any design or development begins.",
+    t: "Market and user behaviour research",
+    d: "ML-driven analysis of user behaviour across a target vertical. We quantify intent, friction, and unmet expectation to validate whether a category is large enough to own.",
+    o: "Validated category thesis with quantified opportunity.",
   },
   {
     n: "02",
-    t: "Precision UX Engineering",
-    d: "Interaction architecture and interface engineering built from validated user intent data. Every flow, transition, and decision point is designed to reduce cognitive load and eliminate friction at the interaction layer.",
+    t: "Brand and UX engineering",
+    d: "Brand identity, narrative system, and product architecture are engineered together. The brand carries the category. The UX delivers on the promise.",
+    o: "A distinct brand system and product architecture ready for build.",
   },
   {
     n: "03",
-    t: "AI Feature Engineering",
-    d: "AI capabilities — adaptive personalisation engines, predictive navigation, contextual inference, and intelligent search — are scoped and integrated at the problem layer, with defined success metrics per feature.",
+    t: "AI feature engineering",
+    d: "AI capabilities are scoped against defined user outcomes. Personalisation, inference, and decision intelligence are engineered into the product where they measurably improve experience.",
+    o: "Production AI features tied to defined user outcomes.",
   },
   {
     n: "04",
-    t: "Product Deployment & Iteration",
-    d: "Full-cycle deployment across target markets, followed by continuous iteration driven by live usage data, cohort analysis, and performance benchmarks against defined product KPIs.",
+    t: "Global deployment and iteration",
+    d: "Each brand is deployed across global markets with infrastructure, compliance, and growth systems built for scale. Behavioural data feeds continuous iteration after launch.",
+    o: "Live product in market with continuous behavioural feedback.",
+  },
+];
+
+const BRANDS = [
+  {
+    n: "01",
+    status: "Active",
+    title: "A global dating application built on experience, emotion, and elegance.",
+    body: "The first ProApex brand operates in a globally proven subscription market. Engineered around emotional nuance and elegant interaction, the product is designed to own a category defined by experience rather than feature count.",
+    specs: [
+      ["Category", "Consumer dating"],
+      ["Business model", "Global subscription"],
+      ["Edge", "Experience, emotion, elegance"],
+      ["Markets", "Global rollout"],
+    ],
+  },
+  {
+    n: "02",
+    status: "Pipeline",
+    title: "AI-native real estate decision intelligence.",
+    body: "The second ProApex brand validates the repeatable vertical-expansion playbook. An AI-native real estate brand engineered around decision intelligence, targeting a high-TAM market where existing products underserve buyer and investor intent.",
+    specs: [
+      ["Category", "Real estate intelligence"],
+      ["Business model", "Consumer and prosumer subscription"],
+      ["Edge", "AI-native decision engine"],
+      ["Markets", "Priority international markets"],
+    ],
   },
 ];
 
@@ -271,29 +302,72 @@ function Index() {
       {/* ABOUT */}
       <section id="about" className="bg-white py-28">
         <div className="mx-auto max-w-[1240px] px-[5vw]">
+          {/* Part One: headline + lead */}
           <div className="grid items-start gap-12 md:grid-cols-2 md:gap-28">
             <div className="rev">
               <SectionLabel>About</SectionLabel>
               <H2 className="text-4xl">
-                Engineered on data.<br />Deployed at <em className="not-italic font-serif italic text-gold">scale.</em>
+                Global scale.<br />
+                AI-engineered applications.<br />
+                High-TAM <em className="not-italic font-serif italic text-gold">markets.</em>
               </H2>
               <p className="max-w-[560px] text-base font-light leading-[1.85] text-slate-ink">
-                Our team builds and deploys AI-first consumer applications. Every product is grounded in quantified behavioral research, engineered with precision UX methodology, and powered by AI integrated at the problem layer — not the interface layer.
+                We identify where the gap between user intent and product experience is large enough to define a category. Then we build the brand that owns it.
               </p>
             </div>
-            <div className="rev mt-2 border-t border-line">
-              {PILLARS.map((p) => (
-                <div key={p.n} className="flex gap-8 border-b border-line py-7">
-                  <span className="shrink-0 pt-1 font-mono text-[0.78rem] tracking-[0.06em] text-gold">
-                    {p.n}
-                  </span>
-                  <div>
-                    <div className="mb-1.5 text-[1rem] font-semibold uppercase tracking-[0.02em] text-navy">
-                      {p.t}
-                    </div>
-                    <div className="text-[0.95rem] font-light leading-[1.75] text-slate-ink">
-                      {p.d}
-                    </div>
+            <div className="rev">
+              <p className="max-w-[560px] text-base font-light leading-[1.85] text-slate-ink">
+                ProApex is a consumer AI company that builds and owns category-defining consumer brands. Each one is grounded in a high-TAM market where existing products have failed to meet user expectation. We identify those gaps through ML-driven user behaviour research, engineer AI-enhanced applications around them, and deploy globally with a distinct brand identity built for longevity, not just launch. Our first brand operates in the dating vertical, a globally proven subscription market. A real estate brand follows, validating our repeatable vertical-expansion playbook.
+              </p>
+            </div>
+          </div>
+
+          {/* Part Two: four-pillar grid */}
+          <div className="rev mt-24 grid gap-px border border-line bg-line sm:grid-cols-2 lg:grid-cols-4">
+            {PILLARS.map((p) => (
+              <div key={p.n} className="bg-white p-8">
+                <span className="block font-mono text-[0.78rem] tracking-[0.06em] text-gold">
+                  {p.n}
+                </span>
+                <div className="mt-4 mb-3 text-[1rem] font-semibold uppercase tracking-[0.02em] text-navy">
+                  {p.t}
+                </div>
+                <div className="text-[0.95rem] font-light leading-[1.75] text-slate-ink">
+                  {p.d}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Part Three: Our brands */}
+          <div className="rev mt-24">
+            <SectionLabel>Our brands</SectionLabel>
+            <div className="mt-8 grid gap-8 md:grid-cols-2">
+              {BRANDS.map((b) => (
+                <div key={b.n} className="flex flex-col border border-line bg-white p-10 md:p-12">
+                  <div className="mb-6 flex items-baseline gap-4">
+                    <span className="font-mono text-[0.78rem] tracking-[0.06em] text-gold">
+                      Brand {b.n}
+                    </span>
+                    <span className="font-mono text-[0.72rem] uppercase tracking-[0.18em] text-muted-ink">
+                      {b.status}
+                    </span>
+                  </div>
+                  <h3 className="mb-5 font-serif text-[1.6rem] font-normal leading-[1.25] text-navy">
+                    {b.title}
+                  </h3>
+                  <p className="mb-8 text-[0.95rem] font-light leading-[1.85] text-slate-ink">
+                    {b.body}
+                  </p>
+                  <div className="mt-auto flex flex-col gap-3 border-t border-line pt-6">
+                    {b.specs.map(([k, v]) => (
+                      <div key={k} className="flex items-baseline justify-between gap-6">
+                        <span className="font-mono text-[0.75rem] uppercase tracking-[0.1em] text-muted-ink">
+                          {k}
+                        </span>
+                        <span className="text-right font-mono text-[0.82rem] text-navy">{v}</span>
+                      </div>
+                    ))}
                   </div>
                 </div>
               ))}
@@ -311,35 +385,35 @@ function Index() {
             <div>
               <SectionLabel>What We Do</SectionLabel>
               <H2>
-                A defined methodology.
+                Identify. Analyse.
                 <br />
-                A measurable <em className="not-italic font-serif italic text-gold">output.</em>
+                Build. <em className="not-italic font-serif italic text-gold">Deploy.</em>
               </H2>
             </div>
             <p className="max-w-[560px] pt-2 text-base font-light leading-[1.85] text-slate-ink">
-              We operate a repeatable product engineering methodology — from behavioral research and UX design through to AI integration and market deployment. Each discipline is applied in sequence, with measurable criteria at every stage.
+              We build consumer brands that endure. Each one engineered with AI at the core, launched into high-TAM markets, and designed with an identity built for global scale.
             </p>
           </div>
-          <div className="rev border-t border-line">
+          <div className="rev grid gap-px border border-line bg-line sm:grid-cols-2">
             {SERVICES.map((s) => (
-              <div
-                key={s.n}
-                className="group grid grid-cols-[40px_1fr_28px] items-center gap-6 border-b border-line py-8 transition-colors hover:bg-gold/5 md:grid-cols-[60px_1fr_28px] md:gap-8"
-              >
-                <span className="font-mono text-[0.78rem] tracking-[0.06em] text-muted-ink">
+              <div key={s.n} className="flex flex-col bg-white p-10">
+                <span className="font-mono text-[0.78rem] tracking-[0.06em] text-gold">
                   {s.n}
                 </span>
-                <div>
-                  <div className="mb-1.5 text-[1.1rem] font-semibold uppercase tracking-[0.03em] text-navy transition-colors group-hover:text-gold">
-                    {s.t}
-                  </div>
-                  <div className="max-w-[580px] text-[0.95rem] font-light leading-[1.8] text-slate-ink">
-                    {s.d}
-                  </div>
+                <div className="mt-4 mb-3 text-[1.1rem] font-semibold uppercase tracking-[0.03em] text-navy">
+                  {s.t}
                 </div>
-                <span className="-translate-x-2 text-base text-gold opacity-0 transition-all group-hover:translate-x-0 group-hover:opacity-100">
-                  →
-                </span>
+                <p className="mb-6 text-[0.95rem] font-light leading-[1.8] text-slate-ink">
+                  {s.d}
+                </p>
+                <div className="mt-auto flex flex-col gap-1.5 border-t border-line pt-5 sm:flex-row sm:items-baseline sm:gap-6">
+                  <span className="shrink-0 font-mono text-[0.75rem] uppercase tracking-[0.1em] text-muted-ink">
+                    Output
+                  </span>
+                  <span className="text-[0.9rem] font-light leading-[1.7] text-navy">
+                    {s.o}
+                  </span>
+                </div>
               </div>
             ))}
           </div>
