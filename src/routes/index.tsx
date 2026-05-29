@@ -29,46 +29,77 @@ export const Route = createFileRoute("/")({
 const PILLARS = [
   {
     n: "01",
-    t: "Behavioural Data Foundation",
-    d: "Every product decision is derived from quantified user behaviour data — journey telemetry, drop-off signals, interaction heatmaps — before a single component is designed.",
+    t: "Market selection",
+    d: "We target high-TAM verticals where existing products consistently fail to meet user expectation. Category gaps come first. Product follows.",
   },
   {
     n: "02",
-    t: "Precision UX Architecture",
-    d: "UX is the core infrastructure, not a surface layer. Interaction flows, information hierarchy, and response patterns are engineered to align exactly with how users process and navigate.",
+    t: "Brand engineering",
+    d: "Each brand is engineered as a category-defining identity. Built for longevity, designed for global recognition, never just a product launch.",
   },
   {
     n: "03",
-    t: "Problem-Layer AI Integration",
-    d: "AI is embedded at the point where it solves a defined user problem — adaptive personalisation, predictive intent mapping, contextual inference — not deployed as a feature for its own visibility.",
+    t: "AI-enhanced delivery",
+    d: "AI is engineered into the product where it closes a defined gap between user intent and product experience. Capability with purpose.",
   },
   {
     n: "04",
-    t: "Global-Scale Architecture",
-    d: "Products are architected from inception for multi-market deployment — scalable infrastructure, internationalisation-ready codebases, and compliance frameworks built for India, UK, and Europe.",
+    t: "Vertical compounding",
+    d: "A repeatable playbook applied vertical by vertical. Every brand compounds the capability of the next.",
   },
 ];
 
 const SERVICES = [
   {
     n: "01",
-    t: "Consumer Behavioural Research",
-    d: "Quantitative and qualitative analysis of real user behaviour — journey mapping, drop-off attribution, hesitation point identification, and intent signal extraction — conducted before any design or development begins.",
+    t: "Market and user behaviour research",
+    d: "ML-driven analysis of user behaviour across a target vertical. We quantify intent, friction, and unmet expectation to validate whether a category is large enough to own.",
+    o: "Validated category thesis with quantified opportunity.",
   },
   {
     n: "02",
-    t: "Precision UX Engineering",
-    d: "Interaction architecture and interface engineering built from validated user intent data. Every flow, transition, and decision point is designed to reduce cognitive load and eliminate friction at the interaction layer.",
+    t: "Brand and UX engineering",
+    d: "Brand identity, narrative system, and product architecture are engineered together. The brand carries the category. The UX delivers on the promise.",
+    o: "A distinct brand system and product architecture ready for build.",
   },
   {
     n: "03",
-    t: "AI Feature Engineering",
-    d: "AI capabilities — adaptive personalisation engines, predictive navigation, contextual inference, and intelligent search — are scoped and integrated at the problem layer, with defined success metrics per feature.",
+    t: "AI feature engineering",
+    d: "AI capabilities are scoped against defined user outcomes. Personalisation, inference, and decision intelligence are engineered into the product where they measurably improve experience.",
+    o: "Production AI features tied to defined user outcomes.",
   },
   {
     n: "04",
-    t: "Product Deployment & Iteration",
-    d: "Full-cycle deployment across target markets, followed by continuous iteration driven by live usage data, cohort analysis, and performance benchmarks against defined product KPIs.",
+    t: "Global deployment and iteration",
+    d: "Each brand is deployed across global markets with infrastructure, compliance, and growth systems built for scale. Behavioural data feeds continuous iteration after launch.",
+    o: "Live product in market with continuous behavioural feedback.",
+  },
+];
+
+const BRANDS = [
+  {
+    n: "01",
+    status: "Active",
+    title: "A global dating application built on experience, emotion, and elegance.",
+    body: "The first ProApex brand operates in a globally proven subscription market. Engineered around emotional nuance and elegant interaction, the product is designed to own a category defined by experience rather than feature count.",
+    specs: [
+      ["Category", "Consumer dating"],
+      ["Business model", "Global subscription"],
+      ["Edge", "Experience, emotion, elegance"],
+      ["Markets", "Global rollout"],
+    ],
+  },
+  {
+    n: "02",
+    status: "Pipeline",
+    title: "AI-native real estate decision intelligence.",
+    body: "The second ProApex brand validates the repeatable vertical-expansion playbook. An AI-native real estate brand engineered around decision intelligence, targeting a high-TAM market where existing products underserve buyer and investor intent.",
+    specs: [
+      ["Category", "Real estate intelligence"],
+      ["Business model", "Consumer and prosumer subscription"],
+      ["Edge", "AI-native decision engine"],
+      ["Markets", "Priority international markets"],
+    ],
   },
 ];
 
