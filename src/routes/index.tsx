@@ -162,6 +162,7 @@ function Index() {
         <div className="hidden items-center gap-10 md:flex">
           {[
             ["About", "#about"],
+            ["Vision", "#vision-mission"],
             ["What We Do", "#services"],
             ["Our Brands", "#products"],
             ["Careers", "#careers"],
@@ -191,11 +192,6 @@ function Index() {
         </div>
       </nav>
       <div aria-hidden className="pointer-events-none fixed inset-x-0 top-[130px] z-[300] h-px bg-line" />
-      <div className="fixed inset-x-0 top-[131px] z-[290] flex justify-center bg-white/95 backdrop-blur-sm py-1.5">
-        <span className="font-mono text-[0.7rem] uppercase tracking-[0.22em] text-navy/60">
-          Vision &nbsp;&nbsp; Finding Solutions.
-        </span>
-      </div>
 
       {/* HERO */}
       <section
