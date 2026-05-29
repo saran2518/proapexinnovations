@@ -163,7 +163,7 @@ function Index() {
           {[
             ["About", "#about"],
             ["What We Do", "#services"],
-            ["Our Products", "#products"],
+            ["Our Brands", "#products"],
             ["Careers", "#careers"],
             ["Contact", "#contact"],
           ].map(([label, href]) => (
@@ -527,7 +527,7 @@ function Index() {
             {[
               ["About", "#about"],
               ["What We Do", "#services"],
-              ["Products", "#products"],
+              ["Brands", "#products"],
               ["Careers", "#careers"],
               ["Contact", "#contact"],
             ].map(([l, h]) => (
