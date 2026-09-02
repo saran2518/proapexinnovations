@@ -80,10 +80,10 @@ const BRANDS = [
   {
     n: "01",
     status: "Active-Development",
-    title: "A Globally Redefined Dating application built on experience, emotion, and elegance.",
+    title: "A Globally Redefined Social Networking application built on experience, emotion, and elegance.",
     body: "The first ProApex brand operates in a globally proven subscription market. Engineered around emotional nuance and elegant interaction, the product is designed to own a category defined by experience rather than feature count.",
     specs: [
-      ["Category", "Consumer dating"],
+      ["Category", "Consumer social networking"],
       ["Business model", "Global subscription"],
       ["Edge", "Experience, emotion, elegance"],
       ["Markets", "Global rollout"],
@@ -318,7 +318,7 @@ function Index() {
             </div>
             <div className="rev">
               <p className="max-w-[560px] text-base font-light leading-[1.85] text-slate-ink">
-                ProApex is a consumer AI company that builds and owns category-defining consumer brands. Each one is grounded in a high-TAM market where existing products have failed to meet user expectation. We identify those gaps through ML-driven user behaviour research, engineer AI-enhanced applications around them, and deploy globally with a distinct brand identity built for longevity, not just launch. Our first brand operates in the dating vertical, a globally proven subscription market. A real estate brand follows, validating our repeatable vertical-expansion playbook.
+                ProApex is a consumer AI company that builds and owns category-defining consumer brands. Each one is grounded in a high-TAM market where existing products have failed to meet user expectation. We identify those gaps through ML-driven user behaviour research, engineer AI-enhanced applications around them, and deploy globally with a distinct brand identity built for longevity, not just launch. Our first brand operates in the social networking vertical, a globally proven subscription market. A real estate brand follows, validating our repeatable vertical-expansion playbook.
               </p>
             </div>
           </div>
